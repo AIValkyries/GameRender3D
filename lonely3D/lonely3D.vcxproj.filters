@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{3383124b-0162-4de6-b38f-7d3eaa66c676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Math">
+      <UniqueIdentifier>{51969847-7477-4c82-891b-3463faae47c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Geometry">
+      <UniqueIdentifier>{9be90c96-bb30-434b-814b-18be3da97a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="FIle">
+      <UniqueIdentifier>{a7c11fb7-c2f6-45b0-942e-15c4f205a992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{00938a57-5460-4a81-aca3-89a0c5e05f63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\MeshLoader">
+      <UniqueIdentifier>{193b23d3-6f8c-46ea-91cd-6d15aa62fe8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\TextureLoader">
+      <UniqueIdentifier>{52f37b14-bb7b-4879-b9fa-712b8c0024f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Software">
+      <UniqueIdentifier>{fae66ab0-3a89-4829-9f60-4610c6801b49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{2abaeb17-43ae-4782-b10e-378157ea807c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneGraph">
+      <UniqueIdentifier>{98e1693b-058a-4896-8558-86205e743805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TerrainSystem">
+      <UniqueIdentifier>{c9c069c7-99f3-4b0a-af74-c8f13dc76eef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Nodes">
+      <UniqueIdentifier>{5e7eb5da-b1d0-4b0a-88d5-29e15f9ad527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Software\Shader">
+      <UniqueIdentifier>{8146ef71-8d68-461f-824d-16b823388925}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lonely3D.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB.cpp">
+      <Filter>Core\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3x3.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4x4.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="FIleInfo.cpp">
+      <Filter>FIle</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureLoader_BMP.cpp">
+      <Filter>Resource\TextureLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureLoader_PNG.cpp">
+      <Filter>Resource\TextureLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureLoader_JPEG.cpp">
+      <Filter>Resource\TextureLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshLoader_OGRE.cpp">
+      <Filter>Resource\MeshLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshLoader_X.cpp">
+      <Filter>Resource\MeshLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorConverter.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="ZBuffer.cpp">
+      <Filter>Software</Filter>
+    </ClCompile>
+    <ClCompile Include="IShader.cpp">
+      <Filter>Software</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedSkeleton.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneObject.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTreeNode.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTree.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>TerrainSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainSection.cpp">
+      <Filter>TerrainSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainMeshBuffer.cpp">
+      <Filter>TerrainSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RoamTerrainSection.cpp">
+      <Filter>TerrainSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RoamTerrainSystem.cpp">
+      <Filter>TerrainSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="GameHost.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedMeshSceneNode.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeSceneNode.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshBuffer.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBoxSceneNode.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="EmptySceneNode.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTreeSceneNode.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="LightSceneNode.cpp">
+      <Filter>Nodes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lMathf.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="DataType.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="MathTest.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Core\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Core\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray2D.h">
+      <Filter>Core\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray3D.h">
+      <Filter>Core\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane2D.h">
+      <Filter>Core\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane3D.h">
+      <Filter>Core\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>Core\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustum.h">
+      <Filter>Core\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>Core\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="IntersectionTests.h">
+      <Filter>Core\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="IFile.h">
+      <Filter>FIle</Filter>
+    </ClInclude>
+    <ClInclude Include="DataPool.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="IResourceLoader.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="IResourceItem.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="MathTools.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3x3.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4x4.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="BitFlags.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshBuffer.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilTools.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="FIleInfo.h">
+      <Filter>FIle</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureLoader_BMP.h">
+      <Filter>Resource\TextureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureLoader_PNG.h">
+      <Filter>Resource\TextureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureLoader_JPEG.h">
+      <Filter>Resource\TextureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshLoader_OGRE.h">
+      <Filter>Resource\MeshLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshLoader_X.h">
+      <Filter>Resource\MeshLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorConverter.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourcePool.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="IShader.h">
+      <Filter>Software</Filter>
+    </ClInclude>
+    <ClInclude Include="ZBuffer.h">
+      <Filter>Software</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SoftwareDriver2_helper.h">
+      <Filter>Software</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Software</Filter>
+    </ClInclude>
+    <ClInclude Include="OgreMeshFileFormat.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyFrame.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Bone.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="BoneAssignment.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>Software</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedSkeleton.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="ISceneNode.h">
+      <Filter>SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneObject.h">
+      <Filter>SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTreeNode.h">
+      <Filter>SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTree.h">
+      <Filter>SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>TerrainSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainSection.h">
+      <Filter>TerrainSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainMeshBuffer.h">
+      <Filter>TerrainSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RoamTerrainSystem.h">
+      <Filter>TerrainSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RoamTerrainSection.h">
+      <Filter>TerrainSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="GameHost.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedMeshSceneNode.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PerlinNoise.h">
+      <Filter>TerrainSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeSceneNode.h">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Gouraud.h">
+      <Filter>Software\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GouraudAlpha.h">
+      <Filter>Software\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="GroundTextureBlend.h">
+      <Filter>Software\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureGouraud.h">
+      <Filter>Software\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureGouraudAlpha.h">
+      <Filter>Software\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceLoaderManager.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBoxSceneNode.h">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="EmptySceneNode.h">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTreeSceneNode.h">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="LightSceneNode.h">
+      <Filter>Nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="FlatShader.h">
+      <Filter>Software\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedPoint.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainShader.h">
+      <Filter>Software\Shader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="lonely3D.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

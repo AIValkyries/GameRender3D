@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{3DCFC794-1E0A-46DF-9D0C-E884370B5164}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>lonely3D</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>E:\Engine\lonely3D\png\Lib;E:\Engine\lonely3D\jpeg\Lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>E:\Engine\lonely3D\jpeg\Lib;E:\Engine\lonely3D\jpeg\Include;E:\Engine\lonely3D\png\Lib;E:\Engine\lonely3D\png\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>zlib.lib;libjpeg.lib;libpng16.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:\Engine\lonely3D\png\Lib;E:\Engine\lonely3D\jpeg\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AABB.cpp" />
+    <ClCompile Include="AnimatedMeshSceneNode.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="ColorConverter.cpp" />
+    <ClCompile Include="CubeSceneNode.cpp" />
+    <ClCompile Include="EmptySceneNode.cpp" />
+    <ClCompile Include="FIleInfo.cpp" />
+    <ClCompile Include="GameHost.cpp" />
+    <ClCompile Include="IShader.cpp" />
+    <ClCompile Include="LightSceneNode.cpp" />
+    <ClCompile Include="Matrix3x3.cpp" />
+    <ClCompile Include="Matrix4x4.cpp" />
+    <ClCompile Include="lonely3D.cpp" />
+    <ClCompile Include="MeshBuffer.cpp" />
+    <ClCompile Include="MeshLoader_OGRE.cpp" />
+    <ClCompile Include="MeshLoader_X.cpp" />
+    <ClCompile Include="QuadTree.cpp" />
+    <ClCompile Include="QuadTreeNode.cpp" />
+    <ClCompile Include="QuadTreeSceneNode.cpp" />
+    <ClCompile Include="Quaternion.cpp" />
+    <ClCompile Include="RoamTerrainSection.cpp" />
+    <ClCompile Include="RoamTerrainSystem.cpp" />
+    <ClCompile Include="SceneObject.cpp" />
+    <ClCompile Include="SkinnedSkeleton.cpp" />
+    <ClCompile Include="SkyBoxSceneNode.cpp" />
+    <ClCompile Include="Terrain.cpp" />
+    <ClCompile Include="TerrainMeshBuffer.cpp" />
+    <ClCompile Include="TerrainSection.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="TextureLoader_BMP.cpp" />
+    <ClCompile Include="TextureLoader_JPEG.cpp" />
+    <ClCompile Include="TextureLoader_PNG.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="Vector2.cpp" />
+    <ClCompile Include="Vector3.cpp" />
+    <ClCompile Include="Vector4.cpp" />
+    <ClCompile Include="ZBuffer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AABB.h" />
+    <ClInclude Include="AnimatedMeshSceneNode.h" />
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="Bone.h" />
+    <ClInclude Include="BoneAssignment.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="ColorConverter.h" />
+    <ClInclude Include="CubeSceneNode.h" />
+    <ClInclude Include="DataPool.h" />
+    <ClInclude Include="DataType.h" />
+    <ClInclude Include="EmptySceneNode.h" />
+    <ClInclude Include="FixedPoint.h" />
+    <ClInclude Include="FlatShader.h" />
+    <ClInclude Include="Frustum.h" />
+    <ClInclude Include="GameHost.h" />
+    <ClInclude Include="Geometry.h" />
+    <ClInclude Include="Gouraud.h" />
+    <ClInclude Include="GouraudAlpha.h" />
+    <ClInclude Include="IFile.h" />
+    <ClInclude Include="IndexBuffer.h" />
+    <ClInclude Include="IntersectionTests.h" />
+    <ClInclude Include="IResourceLoader.h" />
+    <ClInclude Include="BitFlags.h" />
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="Debug.h" />
+    <ClInclude Include="FIleInfo.h" />
+    <ClInclude Include="ISceneNode.h" />
+    <ClInclude Include="IShader.h" />
+    <ClInclude Include="KeyFrame.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="LightSceneNode.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="lMathf.h" />
+    <ClInclude Include="MathTools.h" />
+    <ClInclude Include="Matrix3x3.h" />
+    <ClInclude Include="Matrix4x4.h" />
+    <ClInclude Include="MeshBuffer.h" />
+    <ClInclude Include="MeshLoader_OGRE.h" />
+    <ClInclude Include="MeshLoader_X.h" />
+    <ClInclude Include="OgreMeshFileFormat.h" />
+    <ClInclude Include="PerlinNoise.h" />
+    <ClInclude Include="QuadTree.h" />
+    <ClInclude Include="QuadTreeNode.h" />
+    <ClInclude Include="QuadTreeSceneNode.h" />
+    <ClInclude Include="Quaternion.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ResourceLoaderManager.h" />
+    <ClInclude Include="ResourcePool.h" />
+    <ClInclude Include="RoamTerrainSection.h" />
+    <ClInclude Include="RoamTerrainSystem.h" />
+    <ClInclude Include="SceneObject.h" />
+    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="SkinnedSkeleton.h" />
+    <ClInclude Include="SkyBoxSceneNode.h" />
+    <ClInclude Include="SoftwareDriver2_helper.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Terrain.h" />
+    <ClInclude Include="TerrainMeshBuffer.h" />
+    <ClInclude Include="TerrainSection.h" />
+    <ClInclude Include="TerrainShader.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="GroundTextureBlend.h" />
+    <ClInclude Include="TextureGouraud.h" />
+    <ClInclude Include="TextureGouraudAlpha.h" />
+    <ClInclude Include="TextureLoader_BMP.h" />
+    <ClInclude Include="TextureLoader_JPEG.h" />
+    <ClInclude Include="TextureLoader_PNG.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="Types.h" />
+    <ClInclude Include="Vector2.h" />
+    <ClInclude Include="Vector3.h" />
+    <ClInclude Include="Vector4.h" />
+    <ClInclude Include="Vertex.h" />
+    <ClInclude Include="MathTest.h" />
+    <ClInclude Include="Plane2D.h" />
+    <ClInclude Include="Plane3D.h" />
+    <ClInclude Include="Ray2D.h" />
+    <ClInclude Include="Ray3D.h" />
+    <ClInclude Include="Rect.h" />
+    <ClInclude Include="IResourceItem.h" />
+    <ClInclude Include="Sphere.h" />
+    <ClInclude Include="UtilTools.h" />
+    <ClInclude Include="ZBuffer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="lonely3D.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
