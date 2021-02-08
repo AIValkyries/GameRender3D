@@ -219,15 +219,13 @@ float32 Matrix3x3::Determinant()
 }
 
 // ×ªÖÃ
-Matrix3x3 Matrix3x3::Transpose()
+Matrix3x3& Matrix3x3::Transpose()
 {
-	Matrix3x3 temp = *this;
+	Swap(data[1], data[3]);
+	Swap(data[2], data[6]);
+	Swap(data[5], data[7]);
 
-	Swap(temp[1], temp[3]);
-	Swap(temp[2], temp[6]);
-	Swap(temp[5], temp[7]);
-
-	return temp;
+	return *this;
 }
 
 Matrix3x3 Matrix3x3::Inverse()
@@ -236,16 +234,17 @@ Matrix3x3 Matrix3x3::Inverse()
 
 	float32 f = 1.0F / Determinant();
 
-	temp[0] = data[4] * data[5] - data[7] * data[8];
-	temp[1] = data[4] * data[5] - data[7] * data[8];
-	temp[2] = data[4] * data[5] - data[7] * data[8];
-	temp[3] = data[4] * data[5] - data[7] * data[8];
-	temp[4] = data[4] * data[5] - data[7] * data[8];
-	temp[5] = data[4] * data[5] - data[7] * data[8];
-	temp[6] = data[4] * data[5] - data[7] * data[8];
-	temp[7] = data[4] * data[5] - data[7] * data[8];
-	temp[8] = data[4] * data[5] - data[7] * data[8];
+	temp[0] = (data[4] * data[5] - data[7] * data[8]);
+	temp[1] = -(data[3] * data[5] - data[6] * data[8]);
+	temp[2] = (data[3] * data[4] - data[6] * data[7]);
+	temp[3] = -(data[1] * data[2] - data[7] * data[8]);
+	temp[4] = (data[0] * data[2] - data[6] * data[8]);
+	temp[5] = -(data[0] * data[1] - data[6] * data[7]);
+	temp[6] = (data[1] * data[2] - data[4] * data[5]);
+	temp[7] = -(data[0] * data[2] - data[3] * data[5]);
+	temp[8] = (data[0] * data[1] - data[3] * data[4]);
 
+	temp.Transpose();
 	temp *= f;
 
 	return temp;

@@ -62,7 +62,7 @@ public:
 	void SetZero();
 	void Scale(const Vector3& scale);
 	float32 Determinant();
-	Matrix3x3 Transpose();
+	Matrix3x3& Transpose();
 	Matrix3x3 Inverse();
 
 	Vector3 GetRow(int32 row);
