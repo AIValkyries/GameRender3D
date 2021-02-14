@@ -415,13 +415,13 @@ void IShader::DrawLine(
 ///     1001   |     1000      |    1010
 ///  ----------|---------------|-------------
 ///     0001   |     0000      |    0010
-///  ----------|---------------|--------------
+///  ----------|---------------|-------------
 ///     0101   |     0100      |    0110
 ///            |               |
 /// 为什么是这个编码呢？因为 D3D2D1D0，if(D3==Top) D3=1 else D3=0
 /// 其他的也是如此,则9个编码可以自己算出来
 /// 二、
-/// 将v0和v1分别进行编码得到code1与code2
+/// 将v0和v1分别进行编码得到 code1与code2
 /// 如果code1 | code2 =  0 简取
 /// 如果code1 & code2 != 0 简弃
 /// 三、对一般在内，一般在外的线段进行裁剪
@@ -485,7 +485,7 @@ bool IShader::CS_LineClip(
 	}break;
 
 
-	/*case LINE_CLIP_TOP_LEFT:
+	case LINE_CLIP_TOP_LEFT:
 	{
 		y = yMax;
 		float32 t = (p1.x - p0.x) / (p1.y - p0.y);
@@ -540,7 +540,7 @@ bool IShader::CS_LineClip(
 			y = p0.y + 0.5F + (xMax - p0.x) * t;
 		}
 
-	}break;*/
+	}break;
 
 	}
 
