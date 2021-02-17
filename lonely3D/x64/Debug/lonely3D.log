@@ -1,1440 +1,286 @@
 ﻿  AABB.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\MathTools.h(289,58): warning C4305: “初始化”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\MathTools.h(312,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(331,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(333,28): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(334,19): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(342,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(350,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(355,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(360,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(365,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(372,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(377,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(382,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(393,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(399,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(404,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(415,9): warning C4244: “return”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(513,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector3.h(121,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector4.h(112,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
   AnimatedMeshSceneNode.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\MathTools.h(289,58): warning C4305: “初始化”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\MathTools.h(312,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(331,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(333,28): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(334,19): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(342,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(350,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(355,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(360,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(365,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(372,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(377,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(382,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(393,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(399,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(404,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(415,9): warning C4244: “return”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(513,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector3.h(121,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector4.h(112,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Plane3D.h(44,11): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
-E:\Engine\lonely3D\lonely3D\IntersectionTests.h(96,13): warning C4244: “参数”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Types.h(27,2): warning C4091: “typedef ”: 没有声明变量时忽略“RENDER_STATE_TYPE”的左侧
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(55,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(56,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(196,29): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(32,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(32): message : 在编译 类 模板 成员函数“uint32 IndexBuffer::SpecificIndexList<uint32>::Size(void) const”时
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(85): message : 查看对正在编译的 类 模板 实例化“IndexBuffer::SpecificIndexList<uint32>”的引用
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(46,21): warning C4244: “=”: 从“uint32”转换到“_Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45): message : 在编译 类 模板 成员函数“void IndexBuffer::SpecificIndexList<uint16>::SetValue(uint32,uint32)”时
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(81): message : 查看对正在编译的 类 模板 实例化“IndexBuffer::SpecificIndexList<uint16>”的引用
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(35,22): warning C4244: “参数”: 从“const uint32”转换到“const _Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(34): message : 在编译 类 模板 成员函数“void IndexBuffer::SpecificIndexList<uint16>::PushBack(const uint32 &)”时
-  Camera.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\MathTools.h(289,58): warning C4305: “初始化”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\MathTools.h(312,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(331,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(333,28): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(334,19): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(342,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(350,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(355,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(360,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(365,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(372,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(377,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(382,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(393,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(399,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(404,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(415,9): warning C4244: “return”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(513,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector3.h(121,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector4.h(112,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Plane3D.h(44,11): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
-E:\Engine\lonely3D\lonely3D\IntersectionTests.h(96,13): warning C4244: “参数”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Types.h(27,2): warning C4091: “typedef ”: 没有声明变量时忽略“RENDER_STATE_TYPE”的左侧
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(55,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(56,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(196,29): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Camera.cpp(12,25): warning C4305: “参数”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\Camera.cpp(25,10): warning C4244: “=”: 从“uint32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Camera.cpp(26,11): warning C4244: “=”: 从“uint32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(32,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(32): message : 在编译 类 模板 成员函数“uint32 IndexBuffer::SpecificIndexList<uint32>::Size(void) const”时
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(85): message : 查看对正在编译的 类 模板 实例化“IndexBuffer::SpecificIndexList<uint32>”的引用
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(46,21): warning C4244: “=”: 从“uint32”转换到“_Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45): message : 在编译 类 模板 成员函数“void IndexBuffer::SpecificIndexList<uint16>::SetValue(uint32,uint32)”时
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(81): message : 查看对正在编译的 类 模板 实例化“IndexBuffer::SpecificIndexList<uint16>”的引用
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(35,22): warning C4244: “参数”: 从“const uint32”转换到“const _Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(34): message : 在编译 类 模板 成员函数“void IndexBuffer::SpecificIndexList<uint16>::PushBack(const uint32 &)”时
-  ColorConverter.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\Types.h(27,2): warning C4091: “typedef ”: 没有声明变量时忽略“RENDER_STATE_TYPE”的左侧
-E:\Engine\lonely3D\lonely3D\DataPool.h(164,1): warning C4812: 过时的声明样式: 请改用“DataPool<T>::DataPool”
-E:\Engine\lonely3D\lonely3D\TextureLoader_BMP.h(26): warning C4091: “typedef ”: 没有声明变量时忽略“TextureLoader_BMP::BitMapFileHeader”的左侧
-E:\Engine\lonely3D\lonely3D\TextureLoader_BMP.h(42): warning C4091: “typedef ”: 没有声明变量时忽略“TextureLoader_BMP::BitMapInfoHeader”的左侧
-E:\Engine\lonely3D\lonely3D\TextureLoader_BMP.h(50): warning C4091: “typedef ”: 没有声明变量时忽略“TextureLoader_BMP::Paletteentry”的左侧
-E:\Engine\lonely3D\lonely3D\ColorConverter.cpp(15,21): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\ColorConverter.cpp(21,22): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\ColorConverter.cpp(52,21): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\ColorConverter.cpp(57,22): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\ColorConverter.cpp(88,21): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\ColorConverter.cpp(93,22): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\ColorConverter.cpp(118,22): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\ColorConverter.cpp(148,21): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\ColorConverter.cpp(152,22): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\ColorConverter.cpp(174,21): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\ColorConverter.cpp(178,22): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\ColorConverter.cpp(199,21): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\ColorConverter.cpp(203,36): warning C4552: ”+“: 未使用表达式结果
-E:\Engine\lonely3D\lonely3D\ColorConverter.cpp(205,21): warning C4244: “=”: 从“uint16”转换到“uint8”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\ColorConverter.cpp(206,21): warning C4244: “=”: 从“uint16”转换到“uint8”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\ColorConverter.cpp(207,21): warning C4244: “=”: 从“uint16”转换到“uint8”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\ColorConverter.cpp(226,21): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\ColorConverter.cpp(230,22): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\ColorConverter.cpp(250,21): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\ColorConverter.cpp(254,22): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\ColorConverter.cpp(275,21): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\ColorConverter.cpp(279,22): warning C4018: “<”: 有符号/无符号不匹配
-  FIleInfo.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\Types.h(27,2): warning C4091: “typedef ”: 没有声明变量时忽略“RENDER_STATE_TYPE”的左侧
-E:\Engine\lonely3D\lonely3D\FIleInfo.cpp(67,49): warning C4267: “=”: 从“size_t”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\FIleInfo.cpp(95,50): warning C4267: “=”: 从“size_t”转换到“uint32”，可能丢失数据
-  GameHost.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\MathTools.h(289,58): warning C4305: “初始化”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\MathTools.h(312,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(331,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(333,28): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(334,19): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(342,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(350,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(355,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(360,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(365,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(372,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(377,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(382,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(393,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(399,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(404,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(415,9): warning C4244: “return”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(513,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector3.h(121,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector4.h(112,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Types.h(27,2): warning C4091: “typedef ”: 没有声明变量时忽略“RENDER_STATE_TYPE”的左侧
-E:\Engine\lonely3D\lonely3D\Color.h(92,17): warning C4293: “>>”: Shift 计数为负或过大，其行为未定义
-E:\Engine\lonely3D\lonely3D\Color.h(281,19): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(282,17): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(283,19): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(284,18): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(284,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(283,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(282,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(281,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(292,1): warning C4302: “类型强制转换”: 从“const void *”到“uint16”截断
-E:\Engine\lonely3D\lonely3D\Color.h(295,1): warning C4302: “类型强制转换”: 从“const void *”到“uint16”截断
-E:\Engine\lonely3D\lonely3D\Color.h(298,1): warning C4311: “类型强制转换”: 从“const void *”到“uint32”的指针截断
-E:\Engine\lonely3D\lonely3D\Color.h(298,1): warning C4302: “类型强制转换”: 从“const void *”到“uint32”截断
-E:\Engine\lonely3D\lonely3D\Color.h(301,1): warning C4311: “类型强制转换”: 从“const void *”到“uint32”的指针截断
-E:\Engine\lonely3D\lonely3D\Color.h(301,1): warning C4302: “类型强制转换”: 从“const void *”到“uint32”截断
-E:\Engine\lonely3D\lonely3D\DataPool.h(164,1): warning C4812: 过时的声明样式: 请改用“DataPool<T>::DataPool”
-E:\Engine\lonely3D\lonely3D\Plane3D.h(44,11): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
-E:\Engine\lonely3D\lonely3D\IntersectionTests.h(96,13): warning C4244: “参数”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vertex.h(45,2): warning C4091: “typedef ”: 没有声明变量时忽略“Vertex”的左侧
-E:\Engine\lonely3D\lonely3D\UtilTools.h(16,43): warning C4267: “初始化”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Light.h(291,23): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Light.h(292,23): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Light.h(294,35): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MeshBuffer.h(18,16): warning C4099: “lMaterial”: 类型名称以前使用“struct”现在使用的是“class”
-E:\Engine\lonely3D\lonely3D\Material.h(8): message : 参见“lMaterial”的声明
-E:\Engine\lonely3D\lonely3D\MeshBuffer.h(21,13): warning C4099: “Vertex”: 类型名称以前使用“struct”现在使用的是“class”
-E:\Engine\lonely3D\lonely3D\Vertex.h(11): message : 参见“Vertex”的声明
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(55,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(56,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(196,29): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\SkinnedSkeleton.h(27,28): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\GameHost.cpp(79,21): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\GameHost.cpp(162,8): warning C4101: “hSysMenu”: 未引用的局部变量
-E:\Engine\lonely3D\lonely3D\GameHost.cpp(341,48): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\GameHost.cpp(349,21): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(32,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(32): message : 在编译 类 模板 成员函数“uint32 IndexBuffer::SpecificIndexList<uint32>::Size(void) const”时
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(85): message : 查看对正在编译的 类 模板 实例化“IndexBuffer::SpecificIndexList<uint32>”的引用
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(46,21): warning C4244: “=”: 从“uint32”转换到“_Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45): message : 在编译 类 模板 成员函数“void IndexBuffer::SpecificIndexList<uint16>::SetValue(uint32,uint32)”时
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(81): message : 查看对正在编译的 类 模板 实例化“IndexBuffer::SpecificIndexList<uint16>”的引用
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(35,22): warning C4244: “参数”: 从“const uint32”转换到“const _Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(34): message : 在编译 类 模板 成员函数“void IndexBuffer::SpecificIndexList<uint16>::PushBack(const uint32 &)”时
-  IShader.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\MathTools.h(289,58): warning C4305: “初始化”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\MathTools.h(312,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(331,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(333,28): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(334,19): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(342,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(350,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(355,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(360,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(365,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(372,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(377,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(382,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(393,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(399,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(404,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(415,9): warning C4244: “return”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(513,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector3.h(121,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector4.h(112,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Types.h(27,2): warning C4091: “typedef ”: 没有声明变量时忽略“RENDER_STATE_TYPE”的左侧
-E:\Engine\lonely3D\lonely3D\Color.h(92,17): warning C4293: “>>”: Shift 计数为负或过大，其行为未定义
-E:\Engine\lonely3D\lonely3D\Color.h(281,19): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(282,17): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(283,19): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(284,18): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(284,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(283,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(282,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(281,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(292,1): warning C4302: “类型强制转换”: 从“const void *”到“uint16”截断
-E:\Engine\lonely3D\lonely3D\Color.h(295,1): warning C4302: “类型强制转换”: 从“const void *”到“uint16”截断
-E:\Engine\lonely3D\lonely3D\Color.h(298,1): warning C4311: “类型强制转换”: 从“const void *”到“uint32”的指针截断
-E:\Engine\lonely3D\lonely3D\Color.h(298,1): warning C4302: “类型强制转换”: 从“const void *”到“uint32”截断
-E:\Engine\lonely3D\lonely3D\Color.h(301,1): warning C4311: “类型强制转换”: 从“const void *”到“uint32”的指针截断
-E:\Engine\lonely3D\lonely3D\Color.h(301,1): warning C4302: “类型强制转换”: 从“const void *”到“uint32”截断
-E:\Engine\lonely3D\lonely3D\Vertex.h(45,2): warning C4091: “typedef ”: 没有声明变量时忽略“Vertex”的左侧
-E:\Engine\lonely3D\lonely3D\Plane3D.h(44,11): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
-E:\Engine\lonely3D\lonely3D\IntersectionTests.h(96,13): warning C4244: “参数”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\DataPool.h(164,1): warning C4812: 过时的声明样式: 请改用“DataPool<T>::DataPool”
-E:\Engine\lonely3D\lonely3D\IShader.h(154,11): warning C4156: 未使用数组形式的“delete”删除数组表达式；数组形式被替代
-E:\Engine\lonely3D\lonely3D\IShader.h(154,11): warning C4154: 删除数组表达式；转换到提供的指针
-E:\Engine\lonely3D\lonely3D\IShader.cpp(15,18): warning C4244: “=”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IShader.cpp(16,18): warning C4244: “=”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IShader.cpp(18,31): warning C4244: “=”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IShader.cpp(19,31): warning C4244: “=”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IShader.cpp(71,18): warning C4244: “=”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IShader.cpp(72,18): warning C4244: “=”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IShader.cpp(74,31): warning C4244: “=”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IShader.cpp(75,31): warning C4244: “=”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IShader.cpp(130,19): warning C4244: “=”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IShader.cpp(131,19): warning C4244: “=”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IShader.cpp(133,31): warning C4244: “=”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IShader.cpp(134,31): warning C4244: “=”: 从“float32”转换到“int32”，可能丢失数据
-  Matrix3x3.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\MathTools.h(289,58): warning C4305: “初始化”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\MathTools.h(312,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(331,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(333,28): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(334,19): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(342,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(350,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(355,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(360,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(365,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(372,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(377,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(382,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(393,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(399,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(404,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(415,9): warning C4244: “return”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(513,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector3.h(121,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Matrix3x3.cpp(393,12): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Matrix3x3.cpp(394,12): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Matrix3x3.cpp(395,12): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Matrix3x3.cpp(422,22): warning C4305: “=”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\Matrix3x3.cpp(428,21): warning C4305: “=”: 从“double”到“float32”截断
-  Matrix4x4.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\MathTools.h(289,58): warning C4305: “初始化”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\MathTools.h(312,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(331,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(333,28): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(334,19): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(342,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(350,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(355,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(360,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(365,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(372,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(377,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(382,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(393,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(399,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(404,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(415,9): warning C4244: “return”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(513,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector4.h(112,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector3.h(121,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Matrix4x4.cpp(464,12): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Matrix4x4.cpp(465,12): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Matrix4x4.cpp(466,12): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Matrix4x4.cpp(502,22): warning C4305: “=”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\Matrix4x4.cpp(508,21): warning C4305: “=”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\Matrix4x4.cpp(597,29): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Matrix4x4.cpp(603,35): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-  lonely3D.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\MathTools.h(289,58): warning C4305: “初始化”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\MathTools.h(312,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(331,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(333,28): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(334,19): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(342,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(350,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(355,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(360,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(365,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(372,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(377,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(382,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(393,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(399,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(404,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(415,9): warning C4244: “return”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(513,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector3.h(121,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector4.h(112,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Types.h(27,2): warning C4091: “typedef ”: 没有声明变量时忽略“RENDER_STATE_TYPE”的左侧
-E:\Engine\lonely3D\lonely3D\Color.h(92,17): warning C4293: “>>”: Shift 计数为负或过大，其行为未定义
-E:\Engine\lonely3D\lonely3D\Color.h(281,19): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(282,17): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(283,19): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(284,18): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(284,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(283,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(282,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(281,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(292,1): warning C4302: “类型强制转换”: 从“const void *”到“uint16”截断
-E:\Engine\lonely3D\lonely3D\Color.h(295,1): warning C4302: “类型强制转换”: 从“const void *”到“uint16”截断
-E:\Engine\lonely3D\lonely3D\Color.h(298,1): warning C4311: “类型强制转换”: 从“const void *”到“uint32”的指针截断
-E:\Engine\lonely3D\lonely3D\Color.h(298,1): warning C4302: “类型强制转换”: 从“const void *”到“uint32”截断
-E:\Engine\lonely3D\lonely3D\Color.h(301,1): warning C4311: “类型强制转换”: 从“const void *”到“uint32”的指针截断
-E:\Engine\lonely3D\lonely3D\Color.h(301,1): warning C4302: “类型强制转换”: 从“const void *”到“uint32”截断
-E:\Engine\lonely3D\lonely3D\DataPool.h(164,1): warning C4812: 过时的声明样式: 请改用“DataPool<T>::DataPool”
-E:\Engine\lonely3D\lonely3D\Plane3D.h(44,11): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
-E:\Engine\lonely3D\lonely3D\IntersectionTests.h(96,13): warning C4244: “参数”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vertex.h(45,2): warning C4091: “typedef ”: 没有声明变量时忽略“Vertex”的左侧
-E:\Engine\lonely3D\lonely3D\UtilTools.h(16,43): warning C4267: “初始化”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Light.h(291,23): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Light.h(292,23): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Light.h(294,35): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MeshBuffer.h(18,16): warning C4099: “lMaterial”: 类型名称以前使用“struct”现在使用的是“class”
-E:\Engine\lonely3D\lonely3D\Material.h(8): message : 参见“lMaterial”的声明
-E:\Engine\lonely3D\lonely3D\MeshBuffer.h(21,13): warning C4099: “Vertex”: 类型名称以前使用“struct”现在使用的是“class”
-E:\Engine\lonely3D\lonely3D\Vertex.h(11): message : 参见“Vertex”的声明
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(55,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(56,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(196,29): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\SkinnedSkeleton.h(27,28): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(32,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(32): message : 在编译 类 模板 成员函数“uint32 IndexBuffer::SpecificIndexList<uint32>::Size(void) const”时
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(85): message : 查看对正在编译的 类 模板 实例化“IndexBuffer::SpecificIndexList<uint32>”的引用
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(46,21): warning C4244: “=”: 从“uint32”转换到“_Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45): message : 在编译 类 模板 成员函数“void IndexBuffer::SpecificIndexList<uint16>::SetValue(uint32,uint32)”时
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(81): message : 查看对正在编译的 类 模板 实例化“IndexBuffer::SpecificIndexList<uint16>”的引用
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(35,22): warning C4244: “参数”: 从“const uint32”转换到“const _Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(34): message : 在编译 类 模板 成员函数“void IndexBuffer::SpecificIndexList<uint16>::PushBack(const uint32 &)”时
-  MeshLoader_OGRE.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\Types.h(27,2): warning C4091: “typedef ”: 没有声明变量时忽略“RENDER_STATE_TYPE”的左侧
-E:\Engine\lonely3D\lonely3D\DataPool.h(164,1): warning C4812: 过时的声明样式: 请改用“DataPool<T>::DataPool”
-E:\Engine\lonely3D\lonely3D\MathTools.h(289,58): warning C4305: “初始化”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\MathTools.h(333,28): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(415,9): warning C4244: “return”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(513,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector3.h(121,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector4.h(112,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(92,17): warning C4293: “>>”: Shift 计数为负或过大，其行为未定义
-E:\Engine\lonely3D\lonely3D\Color.h(281,19): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(282,17): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(283,19): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(284,18): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(284,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(283,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(282,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(281,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(292,1): warning C4302: “类型强制转换”: 从“const void *”到“uint16”截断
-E:\Engine\lonely3D\lonely3D\Color.h(295,1): warning C4302: “类型强制转换”: 从“const void *”到“uint16”截断
-E:\Engine\lonely3D\lonely3D\Color.h(298,1): warning C4311: “类型强制转换”: 从“const void *”到“uint32”的指针截断
-E:\Engine\lonely3D\lonely3D\Color.h(298,1): warning C4302: “类型强制转换”: 从“const void *”到“uint32”截断
-E:\Engine\lonely3D\lonely3D\Color.h(301,1): warning C4311: “类型强制转换”: 从“const void *”到“uint32”的指针截断
-E:\Engine\lonely3D\lonely3D\Color.h(301,1): warning C4302: “类型强制转换”: 从“const void *”到“uint32”截断
-E:\Engine\lonely3D\lonely3D\MeshLoader_OGRE.cpp(1,1): warning C4103: 包括标题后更改了对齐方式，可能是由于缺少 #pragma pack(pop)
-E:\Engine\lonely3D\lonely3D\UtilTools.h(16,43): warning C4267: “初始化”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MeshLoader_OGRE.cpp(339,61): warning C4267: “初始化”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MeshLoader_OGRE.cpp(341,18): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\MeshLoader_OGRE.cpp(406,28): warning C4244: “=”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MeshLoader_OGRE.cpp(415,28): warning C4244: “=”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MeshLoader_OGRE.cpp(425,28): warning C4244: “=”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MeshLoader_OGRE.cpp(916,16): warning C4244: “=”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MeshLoader_OGRE.cpp(997,20): warning C4244: “参数”: 从“uint32”转换到“unsigned short”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MeshLoader_OGRE.cpp(1016,29): warning C4267: “+=”: 从“size_t”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MeshLoader_OGRE.cpp(1084,13): warning C4244: “参数”: 从“float32”转换到“unsigned long”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MeshLoader_OGRE.cpp(1084,13): warning C4244: “=”: 从“unsigned long”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MeshLoader_OGRE.cpp(1095,9): warning C4244: “参数”: 从“float32”转换到“unsigned long”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MeshLoader_OGRE.cpp(1095,9): warning C4244: “=”: 从“unsigned long”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(32,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(32): message : 在编译 类 模板 成员函数“uint32 IndexBuffer::SpecificIndexList<uint32>::Size(void) const”时
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(85): message : 查看对正在编译的 类 模板 实例化“IndexBuffer::SpecificIndexList<uint32>”的引用
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(46,21): warning C4244: “=”: 从“uint32”转换到“_Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45): message : 在编译 类 模板 成员函数“void IndexBuffer::SpecificIndexList<uint16>::SetValue(uint32,uint32)”时
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(81): message : 查看对正在编译的 类 模板 实例化“IndexBuffer::SpecificIndexList<uint16>”的引用
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(35,22): warning C4244: “参数”: 从“const uint32”转换到“const _Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(34): message : 在编译 类 模板 成员函数“void IndexBuffer::SpecificIndexList<uint16>::PushBack(const uint32 &)”时
-  MeshLoader_X.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\Types.h(27,2): warning C4091: “typedef ”: 没有声明变量时忽略“RENDER_STATE_TYPE”的左侧
-E:\Engine\lonely3D\lonely3D\DataPool.h(164,1): warning C4812: 过时的声明样式: 请改用“DataPool<T>::DataPool”
-E:\Engine\lonely3D\lonely3D\MathTools.h(289,58): warning C4305: “初始化”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\MathTools.h(333,28): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(415,9): warning C4244: “return”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(513,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector3.h(121,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector4.h(112,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(92,17): warning C4293: “>>”: Shift 计数为负或过大，其行为未定义
-E:\Engine\lonely3D\lonely3D\Color.h(281,19): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(282,17): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(283,19): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(284,18): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(284,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(283,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(282,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(281,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(292,1): warning C4302: “类型强制转换”: 从“const void *”到“uint16”截断
-E:\Engine\lonely3D\lonely3D\Color.h(295,1): warning C4302: “类型强制转换”: 从“const void *”到“uint16”截断
-E:\Engine\lonely3D\lonely3D\Color.h(298,1): warning C4311: “类型强制转换”: 从“const void *”到“uint32”的指针截断
-E:\Engine\lonely3D\lonely3D\Color.h(298,1): warning C4302: “类型强制转换”: 从“const void *”到“uint32”截断
-E:\Engine\lonely3D\lonely3D\Color.h(301,1): warning C4311: “类型强制转换”: 从“const void *”到“uint32”的指针截断
-E:\Engine\lonely3D\lonely3D\Color.h(301,1): warning C4302: “类型强制转换”: 从“const void *”到“uint32”截断
-E:\Engine\lonely3D\lonely3D\Vertex.h(45,2): warning C4091: “typedef ”: 没有声明变量时忽略“Vertex”的左侧
-E:\Engine\lonely3D\lonely3D\MeshBuffer.h(18,16): warning C4099: “lMaterial”: 类型名称以前使用“struct”现在使用的是“class”
-E:\Engine\lonely3D\lonely3D\Material.h(8): message : 参见“lMaterial”的声明
-E:\Engine\lonely3D\lonely3D\MeshBuffer.h(21,13): warning C4099: “Vertex”: 类型名称以前使用“struct”现在使用的是“class”
-E:\Engine\lonely3D\lonely3D\Vertex.h(11): message : 参见“Vertex”的声明
-E:\Engine\lonely3D\lonely3D\SkinnedSkeleton.h(27,28): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\UtilTools.h(16,43): warning C4267: “初始化”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MeshLoader_X.cpp(40,34): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\MeshLoader_X.cpp(111,37): warning C4244: “参数”: 从“int32”转换到“const _Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\MeshLoader_X.cpp(142,26): warning C4244: “=”: 从“uint32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MeshLoader_X.cpp(163,26): warning C4244: “参数”: 从“uint32”转换到“const unsigned short”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MeshLoader_X.cpp(175,25): warning C4244: “参数”: 从“uint32”转换到“const unsigned short”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MeshLoader_X.cpp(187,24): warning C4244: “参数”: 从“uint32”转换到“const unsigned short”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MeshLoader_X.cpp(300,18): warning C4244: “=”: 从“uint32”转换到“uint16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MeshLoader_X.cpp(372,19): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\MeshLoader_X.cpp(389,19): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\MeshLoader_X.cpp(463,19): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\MeshLoader_X.cpp(481,20): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\MeshLoader_X.cpp(489,21): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\MeshLoader_X.cpp(523,20): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\MeshLoader_X.cpp(553,19): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\MeshLoader_X.cpp(703,21): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\MeshLoader_X.cpp(714,21): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\MeshLoader_X.cpp(840,21): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\MeshLoader_X.cpp(1123,1): warning C4806: “==”: 不安全操作: 从类型“bool”提升到类型“char”的值不能等于给定的常量
-E:\Engine\lonely3D\lonely3D\MeshLoader_X.cpp(1134,1): warning C4806: “==”: 不安全操作: 从类型“bool”提升到类型“char”的值不能等于给定的常量
-E:\Engine\lonely3D\lonely3D\MeshLoader_X.cpp(1158,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MeshLoader_X.cpp(1178,13): warning C4244: “return”: 从“double”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(32,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(32): message : 在编译 类 模板 成员函数“uint32 IndexBuffer::SpecificIndexList<uint32>::Size(void) const”时
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(85): message : 查看对正在编译的 类 模板 实例化“IndexBuffer::SpecificIndexList<uint32>”的引用
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(46,21): warning C4244: “=”: 从“uint32”转换到“_Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45): message : 在编译 类 模板 成员函数“void IndexBuffer::SpecificIndexList<uint16>::SetValue(uint32,uint32)”时
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(81): message : 查看对正在编译的 类 模板 实例化“IndexBuffer::SpecificIndexList<uint16>”的引用
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(35,22): warning C4244: “参数”: 从“const uint32”转换到“const _Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(34): message : 在编译 类 模板 成员函数“void IndexBuffer::SpecificIndexList<uint16>::PushBack(const uint32 &)”时
-  QuadTree.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\MathTools.h(289,58): warning C4305: “初始化”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\MathTools.h(312,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(331,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(333,28): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(334,19): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(342,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(350,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(355,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(360,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(365,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(372,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(377,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(382,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(393,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(399,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(404,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(415,9): warning C4244: “return”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(513,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector3.h(121,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector4.h(112,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Plane3D.h(44,11): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
-E:\Engine\lonely3D\lonely3D\IntersectionTests.h(96,13): warning C4244: “参数”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Types.h(27,2): warning C4091: “typedef ”: 没有声明变量时忽略“RENDER_STATE_TYPE”的左侧
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(55,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(56,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(196,29): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(30,5): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(30,14): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(31,5): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(31,14): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(32,5): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(32,14): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(87,30): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTree.cpp(86,27): warning C4244: “参数”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTree.cpp(86,22): warning C4244: “参数”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTree.cpp(86,16): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTree.cpp(90,32): warning C4244: “参数”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTree.cpp(90,27): warning C4244: “参数”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTree.cpp(90,20): warning C4244: “=”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTree.cpp(150,30): warning C4244: “参数”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTree.cpp(150,12): warning C4244: “参数”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTree.cpp(149,30): warning C4244: “参数”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTree.cpp(149,12): warning C4244: “参数”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTree.cpp(148,30): warning C4244: “参数”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTree.cpp(148,12): warning C4244: “参数”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(32,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(32): message : 在编译 类 模板 成员函数“uint32 IndexBuffer::SpecificIndexList<uint32>::Size(void) const”时
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(85): message : 查看对正在编译的 类 模板 实例化“IndexBuffer::SpecificIndexList<uint32>”的引用
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(46,21): warning C4244: “=”: 从“uint32”转换到“_Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45): message : 在编译 类 模板 成员函数“void IndexBuffer::SpecificIndexList<uint16>::SetValue(uint32,uint32)”时
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(81): message : 查看对正在编译的 类 模板 实例化“IndexBuffer::SpecificIndexList<uint16>”的引用
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(35,22): warning C4244: “参数”: 从“const uint32”转换到“const _Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(34): message : 在编译 类 模板 成员函数“void IndexBuffer::SpecificIndexList<uint16>::PushBack(const uint32 &)”时
-  QuadTreeNode.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\MathTools.h(289,58): warning C4305: “初始化”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\MathTools.h(312,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(331,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(333,28): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(334,19): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(342,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(350,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(355,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(360,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(365,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(372,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(377,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(382,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(393,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(399,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(404,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(415,9): warning C4244: “return”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(513,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector3.h(121,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector4.h(112,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Plane3D.h(44,11): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
-E:\Engine\lonely3D\lonely3D\IntersectionTests.h(96,13): warning C4244: “参数”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Types.h(27,2): warning C4091: “typedef ”: 没有声明变量时忽略“RENDER_STATE_TYPE”的左侧
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(55,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(56,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(196,29): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(30,5): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(30,14): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(31,5): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(31,14): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(32,5): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(32,14): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(87,30): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.cpp(31,11): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(32,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(32): message : 在编译 类 模板 成员函数“uint32 IndexBuffer::SpecificIndexList<uint32>::Size(void) const”时
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(85): message : 查看对正在编译的 类 模板 实例化“IndexBuffer::SpecificIndexList<uint32>”的引用
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(46,21): warning C4244: “=”: 从“uint32”转换到“_Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45): message : 在编译 类 模板 成员函数“void IndexBuffer::SpecificIndexList<uint16>::SetValue(uint32,uint32)”时
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(81): message : 查看对正在编译的 类 模板 实例化“IndexBuffer::SpecificIndexList<uint16>”的引用
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(35,22): warning C4244: “参数”: 从“const uint32”转换到“const _Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(34): message : 在编译 类 模板 成员函数“void IndexBuffer::SpecificIndexList<uint16>::PushBack(const uint32 &)”时
-  Quaternion.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\MathTools.h(289,58): warning C4305: “初始化”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\MathTools.h(312,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(331,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(333,28): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(334,19): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(342,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(350,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(355,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(360,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(365,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(372,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(377,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(382,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(393,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(399,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(404,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(415,9): warning C4244: “return”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(513,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector3.h(121,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector4.h(112,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Quaternion.cpp(86,22): warning C4305: “=”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\Quaternion.cpp(92,21): warning C4305: “=”: 从“double”到“float32”截断
-  ResourcePool.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataPool.h(164,1): warning C4812: 过时的声明样式: 请改用“DataPool<T>::DataPool”
-E:\Engine\lonely3D\lonely3D\Types.h(27,2): warning C4091: “typedef ”: 没有声明变量时忽略“RENDER_STATE_TYPE”的左侧
-E:\Engine\lonely3D\lonely3D\MathTools.h(289,58): warning C4305: “初始化”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\MathTools.h(333,28): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(415,9): warning C4244: “return”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(513,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector3.h(121,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector4.h(112,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(92,17): warning C4293: “>>”: Shift 计数为负或过大，其行为未定义
-E:\Engine\lonely3D\lonely3D\Color.h(281,19): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(282,17): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(283,19): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(284,18): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(284,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(283,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(282,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(281,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(292,1): warning C4302: “类型强制转换”: 从“const void *”到“uint16”截断
-E:\Engine\lonely3D\lonely3D\Color.h(295,1): warning C4302: “类型强制转换”: 从“const void *”到“uint16”截断
-E:\Engine\lonely3D\lonely3D\Color.h(298,1): warning C4311: “类型强制转换”: 从“const void *”到“uint32”的指针截断
-E:\Engine\lonely3D\lonely3D\Color.h(298,1): warning C4302: “类型强制转换”: 从“const void *”到“uint32”截断
-E:\Engine\lonely3D\lonely3D\Color.h(301,1): warning C4311: “类型强制转换”: 从“const void *”到“uint32”的指针截断
-E:\Engine\lonely3D\lonely3D\Color.h(301,1): warning C4302: “类型强制转换”: 从“const void *”到“uint32”截断
-E:\Engine\lonely3D\lonely3D\Vertex.h(12,1): warning C4099: “Vertex”: 类型名称以前使用“class”现在使用的是“struct”
-E:\Engine\lonely3D\lonely3D\Vertex.h(11): message : 参见“Vertex”的声明
-E:\Engine\lonely3D\lonely3D\Vertex.h(45,2): warning C4091: “typedef ”: 没有声明变量时忽略“Vertex”的左侧
-E:\Engine\lonely3D\lonely3D\SkinnedSkeleton.h(27,28): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\TextureLoader_BMP.h(26): warning C4091: “typedef ”: 没有声明变量时忽略“TextureLoader_BMP::BitMapFileHeader”的左侧
-E:\Engine\lonely3D\lonely3D\TextureLoader_BMP.h(42): warning C4091: “typedef ”: 没有声明变量时忽略“TextureLoader_BMP::BitMapInfoHeader”的左侧
-E:\Engine\lonely3D\lonely3D\TextureLoader_BMP.h(50): warning C4091: “typedef ”: 没有声明变量时忽略“TextureLoader_BMP::Paletteentry”的左侧
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(49,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(56,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(60,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(69,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(70,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\SkinnedSkeleton.h(30,28): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\UtilTools.h(18,43): warning C4267: “初始化”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\Light.h(102,29): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
 E:\Engine\lonely3D\lonely3D\TextureLoader_JPEG.h(9,10): fatal error C1083: 无法打开包括文件: “jpeglib.h”: No such file or directory
-  RoamTerrainSection.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\UtilTools.h(16,43): warning C4267: “初始化”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(289,58): warning C4305: “初始化”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\MathTools.h(312,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(331,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(333,28): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(334,19): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(342,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(350,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(355,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(360,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(365,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(372,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(377,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(382,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(393,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(399,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(404,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(415,9): warning C4244: “return”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(513,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector3.h(121,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector4.h(112,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Plane3D.h(44,11): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
-E:\Engine\lonely3D\lonely3D\IntersectionTests.h(96,13): warning C4244: “参数”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Types.h(27,2): warning C4091: “typedef ”: 没有声明变量时忽略“RENDER_STATE_TYPE”的左侧
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(55,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(56,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(196,29): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(30,5): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(30,14): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(31,5): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(31,14): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(32,5): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(32,14): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(87,30): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(92,17): warning C4293: “>>”: Shift 计数为负或过大，其行为未定义
-E:\Engine\lonely3D\lonely3D\Color.h(281,19): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(282,17): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(283,19): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(284,18): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(284,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(283,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(282,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(281,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(292,1): warning C4302: “类型强制转换”: 从“const void *”到“uint16”截断
-E:\Engine\lonely3D\lonely3D\Color.h(295,1): warning C4302: “类型强制转换”: 从“const void *”到“uint16”截断
-E:\Engine\lonely3D\lonely3D\Color.h(298,1): warning C4311: “类型强制转换”: 从“const void *”到“uint32”的指针截断
-E:\Engine\lonely3D\lonely3D\Color.h(298,1): warning C4302: “类型强制转换”: 从“const void *”到“uint32”截断
-E:\Engine\lonely3D\lonely3D\Color.h(301,1): warning C4311: “类型强制转换”: 从“const void *”到“uint32”的指针截断
-E:\Engine\lonely3D\lonely3D\Color.h(301,1): warning C4302: “类型强制转换”: 从“const void *”到“uint32”截断
-E:\Engine\lonely3D\lonely3D\DataPool.h(164,1): warning C4812: 过时的声明样式: 请改用“DataPool<T>::DataPool”
-E:\Engine\lonely3D\lonely3D\RoamTerrainSection.cpp(41,73): warning C4244: “参数”: 从“int32”转换到“int16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\RoamTerrainSection.cpp(41,56): warning C4244: “参数”: 从“int32”转换到“int16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\RoamTerrainSection.cpp(42,68): warning C4244: “参数”: 从“int32”转换到“int16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\RoamTerrainSection.cpp(42,63): warning C4244: “参数”: 从“int32”转换到“int16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\RoamTerrainSection.cpp(44,68): warning C4244: “参数”: 从“int32”转换到“int16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\RoamTerrainSection.cpp(44,63): warning C4244: “参数”: 从“int32”转换到“int16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\RoamTerrainSection.cpp(45,73): warning C4244: “参数”: 从“int32”转换到“int16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\RoamTerrainSection.cpp(45,56): warning C4244: “参数”: 从“int32”转换到“int16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\RoamTerrainSection.cpp(268,49): warning C4244: “参数”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\RoamTerrainSection.cpp(270,34): warning C4244: “参数”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\RoamTerrainSection.cpp(270,17): warning C4244: “初始化”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\RoamTerrainSection.cpp(275,21): warning C4244: “参数”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\RoamTerrainSection.cpp(281,25): warning C4244: “参数”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\RoamTerrainSection.cpp(280,12): warning C4244: “参数”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(32,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(32): message : 在编译 类 模板 成员函数“uint32 IndexBuffer::SpecificIndexList<uint32>::Size(void) const”时
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(85): message : 查看对正在编译的 类 模板 实例化“IndexBuffer::SpecificIndexList<uint32>”的引用
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(46,21): warning C4244: “=”: 从“uint32”转换到“_Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45): message : 在编译 类 模板 成员函数“void IndexBuffer::SpecificIndexList<uint16>::SetValue(uint32,uint32)”时
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(81): message : 查看对正在编译的 类 模板 实例化“IndexBuffer::SpecificIndexList<uint16>”的引用
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(35,22): warning C4244: “参数”: 从“const uint32”转换到“const _Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(34): message : 在编译 类 模板 成员函数“void IndexBuffer::SpecificIndexList<uint16>::PushBack(const uint32 &)”时
-  RoamTerrainSystem.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\MathTools.h(289,58): warning C4305: “初始化”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\MathTools.h(312,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(331,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(333,28): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(334,19): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(342,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(350,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(355,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(360,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(365,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(372,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(377,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(382,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(393,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(399,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(404,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(415,9): warning C4244: “return”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(513,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector3.h(121,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector4.h(112,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Plane3D.h(44,11): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
-E:\Engine\lonely3D\lonely3D\IntersectionTests.h(96,13): warning C4244: “参数”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Types.h(27,2): warning C4091: “typedef ”: 没有声明变量时忽略“RENDER_STATE_TYPE”的左侧
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(55,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(56,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(196,29): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(30,5): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(30,14): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(31,5): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(31,14): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(32,5): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(32,14): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(87,30): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(92,17): warning C4293: “>>”: Shift 计数为负或过大，其行为未定义
-E:\Engine\lonely3D\lonely3D\Color.h(281,19): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(282,17): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(283,19): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(284,18): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(284,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(283,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(282,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(281,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(292,1): warning C4302: “类型强制转换”: 从“const void *”到“uint16”截断
-E:\Engine\lonely3D\lonely3D\Color.h(295,1): warning C4302: “类型强制转换”: 从“const void *”到“uint16”截断
-E:\Engine\lonely3D\lonely3D\Color.h(298,1): warning C4311: “类型强制转换”: 从“const void *”到“uint32”的指针截断
-E:\Engine\lonely3D\lonely3D\Color.h(298,1): warning C4302: “类型强制转换”: 从“const void *”到“uint32”截断
-E:\Engine\lonely3D\lonely3D\Color.h(301,1): warning C4311: “类型强制转换”: 从“const void *”到“uint32”的指针截断
-E:\Engine\lonely3D\lonely3D\Color.h(301,1): warning C4302: “类型强制转换”: 从“const void *”到“uint32”截断
-E:\Engine\lonely3D\lonely3D\DataPool.h(164,1): warning C4812: 过时的声明样式: 请改用“DataPool<T>::DataPool”
-E:\Engine\lonely3D\lonely3D\UtilTools.h(16,43): warning C4267: “初始化”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\RoamTerrainSystem.cpp(16,58): warning C4244: “初始化”: 从“float32”转换到“size_t”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(32,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(32): message : 在编译 类 模板 成员函数“uint32 IndexBuffer::SpecificIndexList<uint32>::Size(void) const”时
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(85): message : 查看对正在编译的 类 模板 实例化“IndexBuffer::SpecificIndexList<uint32>”的引用
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(46,21): warning C4244: “=”: 从“uint32”转换到“_Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45): message : 在编译 类 模板 成员函数“void IndexBuffer::SpecificIndexList<uint16>::SetValue(uint32,uint32)”时
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(81): message : 查看对正在编译的 类 模板 实例化“IndexBuffer::SpecificIndexList<uint16>”的引用
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(35,22): warning C4244: “参数”: 从“const uint32”转换到“const _Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(34): message : 在编译 类 模板 成员函数“void IndexBuffer::SpecificIndexList<uint16>::PushBack(const uint32 &)”时
-  SceneObject.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\MathTools.h(289,58): warning C4305: “初始化”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\MathTools.h(312,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(331,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(333,28): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(334,19): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(342,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(350,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(355,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(360,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(365,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(372,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(377,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(382,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(393,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(399,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(404,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(415,9): warning C4244: “return”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(513,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector3.h(121,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector4.h(112,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Plane3D.h(44,11): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
-E:\Engine\lonely3D\lonely3D\IntersectionTests.h(96,13): warning C4244: “参数”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Types.h(27,2): warning C4091: “typedef ”: 没有声明变量时忽略“RENDER_STATE_TYPE”的左侧
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(55,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(56,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(196,29): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(30,5): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(30,14): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(31,5): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(31,14): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(32,5): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(32,14): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(87,30): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(32,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(32): message : 在编译 类 模板 成员函数“uint32 IndexBuffer::SpecificIndexList<uint32>::Size(void) const”时
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(85): message : 查看对正在编译的 类 模板 实例化“IndexBuffer::SpecificIndexList<uint32>”的引用
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(46,21): warning C4244: “=”: 从“uint32”转换到“_Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45): message : 在编译 类 模板 成员函数“void IndexBuffer::SpecificIndexList<uint16>::SetValue(uint32,uint32)”时
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(81): message : 查看对正在编译的 类 模板 实例化“IndexBuffer::SpecificIndexList<uint16>”的引用
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(35,22): warning C4244: “参数”: 从“const uint32”转换到“const _Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(34): message : 在编译 类 模板 成员函数“void IndexBuffer::SpecificIndexList<uint16>::PushBack(const uint32 &)”时
-  SkinnedSkeleton.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\MathTools.h(289,58): warning C4305: “初始化”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\MathTools.h(312,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(331,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(333,28): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(334,19): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(342,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(350,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(355,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(360,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(365,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(372,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(377,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(382,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(393,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(399,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(404,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(415,9): warning C4244: “return”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(513,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector3.h(121,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector4.h(112,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Types.h(27,2): warning C4091: “typedef ”: 没有声明变量时忽略“RENDER_STATE_TYPE”的左侧
-E:\Engine\lonely3D\lonely3D\Color.h(92,17): warning C4293: “>>”: Shift 计数为负或过大，其行为未定义
-E:\Engine\lonely3D\lonely3D\Color.h(281,19): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(282,17): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(283,19): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(284,18): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(284,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(283,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(282,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(281,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(292,1): warning C4302: “类型强制转换”: 从“const void *”到“uint16”截断
-E:\Engine\lonely3D\lonely3D\Color.h(295,1): warning C4302: “类型强制转换”: 从“const void *”到“uint16”截断
-E:\Engine\lonely3D\lonely3D\Color.h(298,1): warning C4311: “类型强制转换”: 从“const void *”到“uint32”的指针截断
-E:\Engine\lonely3D\lonely3D\Color.h(298,1): warning C4302: “类型强制转换”: 从“const void *”到“uint32”截断
-E:\Engine\lonely3D\lonely3D\Color.h(301,1): warning C4311: “类型强制转换”: 从“const void *”到“uint32”的指针截断
-E:\Engine\lonely3D\lonely3D\Color.h(301,1): warning C4302: “类型强制转换”: 从“const void *”到“uint32”截断
-E:\Engine\lonely3D\lonely3D\Vertex.h(12,1): warning C4099: “Vertex”: 类型名称以前使用“class”现在使用的是“struct”
-E:\Engine\lonely3D\lonely3D\Vertex.h(11): message : 参见“Vertex”的声明
-E:\Engine\lonely3D\lonely3D\Vertex.h(45,2): warning C4091: “typedef ”: 没有声明变量时忽略“Vertex”的左侧
-E:\Engine\lonely3D\lonely3D\DataPool.h(164,1): warning C4812: 过时的声明样式: 请改用“DataPool<T>::DataPool”
-E:\Engine\lonely3D\lonely3D\SkinnedSkeleton.h(27,28): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\SkinnedSkeleton.cpp(121,18): warning C4244: “初始化”: 从“unsigned long”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\SkinnedSkeleton.cpp(169,18): warning C4244: “初始化”: 从“unsigned long”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\SkinnedSkeleton.cpp(217,18): warning C4244: “初始化”: 从“unsigned long”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(32,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(32): message : 在编译 类 模板 成员函数“uint32 IndexBuffer::SpecificIndexList<uint32>::Size(void) const”时
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(85): message : 查看对正在编译的 类 模板 实例化“IndexBuffer::SpecificIndexList<uint32>”的引用
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(46,21): warning C4244: “=”: 从“uint32”转换到“_Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45): message : 在编译 类 模板 成员函数“void IndexBuffer::SpecificIndexList<uint16>::SetValue(uint32,uint32)”时
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(81): message : 查看对正在编译的 类 模板 实例化“IndexBuffer::SpecificIndexList<uint16>”的引用
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(35,22): warning C4244: “参数”: 从“const uint32”转换到“const _Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(34): message : 在编译 类 模板 成员函数“void IndexBuffer::SpecificIndexList<uint16>::PushBack(const uint32 &)”时
+  Camera.cpp
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(49,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(56,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(60,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(69,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(70,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\UtilTools.h(18,43): warning C4267: “初始化”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\Light.h(102,29): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\SkinnedSkeleton.h(30,28): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\TextureLoader_JPEG.h(9,10): fatal error C1083: 无法打开包括文件: “jpeglib.h”: No such file or directory
+  ColorConverter.cpp
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  CubeSceneNode.cpp
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(49,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(56,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(60,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(69,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(70,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\UtilTools.h(18,43): warning C4267: “初始化”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\Light.h(102,29): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\SkinnedSkeleton.h(30,28): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\TextureLoader_JPEG.h(9,10): fatal error C1083: 无法打开包括文件: “jpeglib.h”: No such file or directory
+  EmptySceneNode.cpp
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(49,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(56,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(60,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(69,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(70,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+  FIleInfo.cpp
+E:\Engine\lonely3D\lonely3D\FIleInfo.cpp(18,47): warning C4267: “初始化”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\FIleInfo.cpp(80,49): warning C4267: “=”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\FIleInfo.cpp(98,50): warning C4267: “=”: 从“size_t”转换到“uint32”，可能丢失数据
+  GameHost.cpp
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\UtilTools.h(18,43): warning C4267: “初始化”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(49,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(56,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(60,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(69,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(70,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\Light.h(102,29): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\SkinnedSkeleton.h(30,28): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\TextureLoader_JPEG.h(9,10): fatal error C1083: 无法打开包括文件: “jpeglib.h”: No such file or directory
+  IShader.cpp
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\UtilTools.h(18,43): warning C4267: “初始化”: 从“size_t”转换到“int32”，可能丢失数据
+  LightSceneNode.cpp
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(49,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(56,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(60,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(69,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(70,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\UtilTools.h(18,43): warning C4267: “初始化”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\Light.h(102,29): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\SkinnedSkeleton.h(30,28): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\TextureLoader_JPEG.h(9,10): fatal error C1083: 无法打开包括文件: “jpeglib.h”: No such file or directory
+  Matrix3x3.cpp
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Matrix4x4.cpp
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  lonely3D.cpp
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\UtilTools.h(18,43): warning C4267: “初始化”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(49,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(56,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(60,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(69,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(70,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\Light.h(102,29): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\SkinnedSkeleton.h(30,28): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\TextureLoader_JPEG.h(9,10): fatal error C1083: 无法打开包括文件: “jpeglib.h”: No such file or directory
+  MeshBuffer.cpp
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(49,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(56,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(60,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\UtilTools.h(18,43): warning C4267: “初始化”: 从“size_t”转换到“int32”，可能丢失数据
+  MeshLoader_OGRE.cpp
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(49,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(56,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(60,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\SkinnedSkeleton.h(30,28): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\UtilTools.h(18,43): warning C4267: “初始化”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(69,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(70,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\Light.h(102,29): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\TextureLoader_JPEG.h(9,10): fatal error C1083: 无法打开包括文件: “jpeglib.h”: No such file or directory
+  MeshLoader_X.cpp
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(49,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(56,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(60,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\SkinnedSkeleton.h(30,28): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\UtilTools.h(18,43): warning C4267: “初始化”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(69,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(70,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\Light.h(102,29): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\TextureLoader_JPEG.h(9,10): fatal error C1083: 无法打开包括文件: “jpeglib.h”: No such file or directory
+  QuadTree.cpp
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(49,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(56,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(60,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(69,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(70,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(113,30): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+  QuadTreeNode.cpp
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(49,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(56,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(60,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(69,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(70,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(113,30): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\QuadTreeNode.cpp(62,30): warning C4267: “+=”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\QuadTreeNode.cpp(92,32): warning C4267: “+=”: 从“size_t”转换到“int32”，可能丢失数据
+  QuadTreeSceneNode.cpp
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(49,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(56,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(60,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(69,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(70,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(113,30): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\UtilTools.h(18,43): warning C4267: “初始化”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\Light.h(102,29): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\SkinnedSkeleton.h(30,28): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\TextureLoader_JPEG.h(9,10): fatal error C1083: 无法打开包括文件: “jpeglib.h”: No such file or directory
+  Quaternion.cpp
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
   正在生成代码...
-E:\Engine\lonely3D\lonely3D\Matrix4x4.h(43): warning C4172: 返回局部变量或临时变量的地址
-E:\Engine\lonely3D\lonely3D\Matrix3x3.h(30): warning C4172: 返回局部变量或临时变量的地址
-E:\Engine\lonely3D\lonely3D\MeshLoader_X.cpp(666): warning C4715: “MeshLoader_X::ReadMaterial”: 不是所有的控件路径都返回值
-E:\Engine\lonely3D\lonely3D\MeshLoader_OGRE.cpp(36): warning C4715: “MeshLoader_OGRE::Loader”: 不是所有的控件路径都返回值
-E:\Engine\lonely3D\lonely3D\Matrix4x4.h(43): warning C4172: 返回局部变量或临时变量的地址
-E:\Engine\lonely3D\lonely3D\Matrix3x3.h(30): warning C4172: 返回局部变量或临时变量的地址
-E:\Engine\lonely3D\lonely3D\Matrix3x3.cpp(84): warning C4172: 返回局部变量或临时变量的地址: tempV
-E:\Engine\lonely3D\lonely3D\Matrix4x4.h(43): warning C4172: 返回局部变量或临时变量的地址
-E:\Engine\lonely3D\lonely3D\Matrix3x3.h(30): warning C4172: 返回局部变量或临时变量的地址
-E:\Engine\lonely3D\lonely3D\IShader.cpp(341): warning C4715: “IShader::CS_LineClip”: 不是所有的控件路径都返回值
-E:\Engine\lonely3D\lonely3D\Matrix4x4.h(43): warning C4172: 返回局部变量或临时变量的地址
   正在编译...
+  RoamTerrainSection.cpp
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\UtilTools.h(18,43): warning C4267: “初始化”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(49,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(56,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(60,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(69,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(70,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(113,30): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\Light.h(102,29): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\SkinnedSkeleton.h(30,28): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\TextureLoader_JPEG.h(9,10): fatal error C1083: 无法打开包括文件: “jpeglib.h”: No such file or directory
+  RoamTerrainSystem.cpp
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(49,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(56,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(60,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(69,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(70,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(113,30): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\UtilTools.h(18,43): warning C4267: “初始化”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\Light.h(102,29): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\SkinnedSkeleton.h(30,28): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\TextureLoader_JPEG.h(9,10): fatal error C1083: 无法打开包括文件: “jpeglib.h”: No such file or directory
+  SceneObject.cpp
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(49,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(56,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(60,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(69,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(70,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(113,30): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\UtilTools.h(18,43): warning C4267: “初始化”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\Light.h(102,29): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\SkinnedSkeleton.h(30,28): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\TextureLoader_JPEG.h(9,10): fatal error C1083: 无法打开包括文件: “jpeglib.h”: No such file or directory
+  SkinnedSkeleton.cpp
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(49,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(56,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(60,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\SkinnedSkeleton.h(30,28): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+  SkyBoxSceneNode.cpp
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(49,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(56,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(60,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(69,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(70,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\UtilTools.h(18,43): warning C4267: “初始化”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\Light.h(102,29): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\SkinnedSkeleton.h(30,28): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\TextureLoader_JPEG.h(9,10): fatal error C1083: 无法打开包括文件: “jpeglib.h”: No such file or directory
   Terrain.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\MathTools.h(289,58): warning C4305: “初始化”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\MathTools.h(312,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(331,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(333,28): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(334,19): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(342,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(350,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(355,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(360,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(365,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(372,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(377,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(382,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(393,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(399,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(404,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(415,9): warning C4244: “return”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(513,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector3.h(121,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector4.h(112,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Plane3D.h(44,11): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
-E:\Engine\lonely3D\lonely3D\IntersectionTests.h(96,13): warning C4244: “参数”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Types.h(27,2): warning C4091: “typedef ”: 没有声明变量时忽略“RENDER_STATE_TYPE”的左侧
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(55,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(56,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(196,29): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(30,5): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(30,14): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(31,5): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(31,14): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(32,5): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(32,14): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(87,30): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(92,17): warning C4293: “>>”: Shift 计数为负或过大，其行为未定义
-E:\Engine\lonely3D\lonely3D\Color.h(281,19): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(282,17): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(283,19): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(284,18): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(284,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(283,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(282,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(281,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(292,1): warning C4302: “类型强制转换”: 从“const void *”到“uint16”截断
-E:\Engine\lonely3D\lonely3D\Color.h(295,1): warning C4302: “类型强制转换”: 从“const void *”到“uint16”截断
-E:\Engine\lonely3D\lonely3D\Color.h(298,1): warning C4311: “类型强制转换”: 从“const void *”到“uint32”的指针截断
-E:\Engine\lonely3D\lonely3D\Color.h(298,1): warning C4302: “类型强制转换”: 从“const void *”到“uint32”截断
-E:\Engine\lonely3D\lonely3D\Color.h(301,1): warning C4311: “类型强制转换”: 从“const void *”到“uint32”的指针截断
-E:\Engine\lonely3D\lonely3D\Color.h(301,1): warning C4302: “类型强制转换”: 从“const void *”到“uint32”截断
-E:\Engine\lonely3D\lonely3D\DataPool.h(164,1): warning C4812: 过时的声明样式: 请改用“DataPool<T>::DataPool”
-E:\Engine\lonely3D\lonely3D\Terrain.cpp(26,33): warning C4244: “=”: 从“uint32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Terrain.cpp(27,34): warning C4244: “=”: 从“uint32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Terrain.cpp(96,48): warning C4244: “初始化”: 从“float32”转换到“size_t”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Terrain.cpp(129,27): warning C4244: “参数”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Terrain.cpp(129,26): warning C4244: “=”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Terrain.cpp(174,12): warning C4244: “初始化”: 从“float32”转换到“uint8”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Terrain.cpp(175,12): warning C4244: “初始化”: 从“float32”转换到“uint8”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Terrain.cpp(176,12): warning C4244: “初始化”: 从“float32”转换到“uint8”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Terrain.cpp(177,12): warning C4244: “初始化”: 从“float32”转换到“uint8”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Terrain.cpp(219,23): warning C4244: “参数”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Terrain.cpp(228,53): warning C4244: “=”: 从“uint32”转换到“uint16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Terrain.cpp(229,54): warning C4244: “=”: 从“uint32”转换到“uint16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(32,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(32): message : 在编译 类 模板 成员函数“uint32 IndexBuffer::SpecificIndexList<uint32>::Size(void) const”时
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(85): message : 查看对正在编译的 类 模板 实例化“IndexBuffer::SpecificIndexList<uint32>”的引用
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(46,21): warning C4244: “=”: 从“uint32”转换到“_Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45): message : 在编译 类 模板 成员函数“void IndexBuffer::SpecificIndexList<uint16>::SetValue(uint32,uint32)”时
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(81): message : 查看对正在编译的 类 模板 实例化“IndexBuffer::SpecificIndexList<uint16>”的引用
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(35,22): warning C4244: “参数”: 从“const uint32”转换到“const _Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(34): message : 在编译 类 模板 成员函数“void IndexBuffer::SpecificIndexList<uint16>::PushBack(const uint32 &)”时
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(49,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(56,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(60,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(69,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(70,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(113,30): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\UtilTools.h(18,43): warning C4267: “初始化”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\Light.h(102,29): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\SkinnedSkeleton.h(30,28): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\TextureLoader_JPEG.h(9,10): fatal error C1083: 无法打开包括文件: “jpeglib.h”: No such file or directory
   TerrainMeshBuffer.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\MathTools.h(289,58): warning C4305: “初始化”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\MathTools.h(312,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(331,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(333,28): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(334,19): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(342,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(350,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(355,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(360,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(365,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(372,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(377,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(382,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(393,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(399,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(404,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(415,9): warning C4244: “return”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(513,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector3.h(121,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector4.h(112,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Types.h(27,2): warning C4091: “typedef ”: 没有声明变量时忽略“RENDER_STATE_TYPE”的左侧
-E:\Engine\lonely3D\lonely3D\Color.h(92,17): warning C4293: “>>”: Shift 计数为负或过大，其行为未定义
-E:\Engine\lonely3D\lonely3D\Color.h(281,19): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(282,17): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(283,19): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(284,18): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(284,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(283,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(282,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(281,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(292,1): warning C4302: “类型强制转换”: 从“const void *”到“uint16”截断
-E:\Engine\lonely3D\lonely3D\Color.h(295,1): warning C4302: “类型强制转换”: 从“const void *”到“uint16”截断
-E:\Engine\lonely3D\lonely3D\Color.h(298,1): warning C4311: “类型强制转换”: 从“const void *”到“uint32”的指针截断
-E:\Engine\lonely3D\lonely3D\Color.h(298,1): warning C4302: “类型强制转换”: 从“const void *”到“uint32”截断
-E:\Engine\lonely3D\lonely3D\Color.h(301,1): warning C4311: “类型强制转换”: 从“const void *”到“uint32”的指针截断
-E:\Engine\lonely3D\lonely3D\Color.h(301,1): warning C4302: “类型强制转换”: 从“const void *”到“uint32”截断
-E:\Engine\lonely3D\lonely3D\Material.h(9,1): warning C4099: “lMaterial”: 类型名称以前使用“class”现在使用的是“struct”
-E:\Engine\lonely3D\lonely3D\Material.h(8): message : 参见“lMaterial”的声明
-E:\Engine\lonely3D\lonely3D\DataPool.h(164,1): warning C4812: 过时的声明样式: 请改用“DataPool<T>::DataPool”
-E:\Engine\lonely3D\lonely3D\Vertex.h(12,1): warning C4099: “Vertex”: 类型名称以前使用“class”现在使用的是“struct”
-E:\Engine\lonely3D\lonely3D\Vertex.h(11): message : 参见“Vertex”的声明
-E:\Engine\lonely3D\lonely3D\Vertex.h(45,2): warning C4091: “typedef ”: 没有声明变量时忽略“Vertex”的左侧
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(32,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(32): message : 在编译 类 模板 成员函数“uint32 IndexBuffer::SpecificIndexList<uint32>::Size(void) const”时
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(85): message : 查看对正在编译的 类 模板 实例化“IndexBuffer::SpecificIndexList<uint32>”的引用
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(46,21): warning C4244: “=”: 从“uint32”转换到“_Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45): message : 在编译 类 模板 成员函数“void IndexBuffer::SpecificIndexList<uint16>::SetValue(uint32,uint32)”时
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(81): message : 查看对正在编译的 类 模板 实例化“IndexBuffer::SpecificIndexList<uint16>”的引用
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(35,22): warning C4244: “参数”: 从“const uint32”转换到“const _Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(34): message : 在编译 类 模板 成员函数“void IndexBuffer::SpecificIndexList<uint16>::PushBack(const uint32 &)”时
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(49,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(56,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(60,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
   TerrainSection.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\MathTools.h(289,58): warning C4305: “初始化”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\MathTools.h(312,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(331,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(333,28): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(334,19): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(342,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(350,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(355,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(360,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(365,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(372,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(377,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(382,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(393,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(399,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(404,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(415,9): warning C4244: “return”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(513,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector3.h(121,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector4.h(112,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Plane3D.h(44,11): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
-E:\Engine\lonely3D\lonely3D\IntersectionTests.h(96,13): warning C4244: “参数”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Types.h(27,2): warning C4091: “typedef ”: 没有声明变量时忽略“RENDER_STATE_TYPE”的左侧
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(55,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(56,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\ISceneNode.h(196,29): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(92,17): warning C4293: “>>”: Shift 计数为负或过大，其行为未定义
-E:\Engine\lonely3D\lonely3D\Color.h(281,19): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(282,17): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(283,19): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(284,18): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(284,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(283,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(282,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(281,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(292,1): warning C4302: “类型强制转换”: 从“const void *”到“uint16”截断
-E:\Engine\lonely3D\lonely3D\Color.h(295,1): warning C4302: “类型强制转换”: 从“const void *”到“uint16”截断
-E:\Engine\lonely3D\lonely3D\Color.h(298,1): warning C4311: “类型强制转换”: 从“const void *”到“uint32”的指针截断
-E:\Engine\lonely3D\lonely3D\Color.h(298,1): warning C4302: “类型强制转换”: 从“const void *”到“uint32”截断
-E:\Engine\lonely3D\lonely3D\Color.h(301,1): warning C4311: “类型强制转换”: 从“const void *”到“uint32”的指针截断
-E:\Engine\lonely3D\lonely3D\Color.h(301,1): warning C4302: “类型强制转换”: 从“const void *”到“uint32”截断
-E:\Engine\lonely3D\lonely3D\Vertex.h(12,1): warning C4099: “Vertex”: 类型名称以前使用“class”现在使用的是“struct”
-E:\Engine\lonely3D\lonely3D\Vertex.h(11): message : 参见“Vertex”的声明
-E:\Engine\lonely3D\lonely3D\Vertex.h(45,2): warning C4091: “typedef ”: 没有声明变量时忽略“Vertex”的左侧
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(30,5): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(30,14): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(31,5): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(31,14): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(32,5): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(32,14): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(87,30): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\DataPool.h(164,1): warning C4812: 过时的声明样式: 请改用“DataPool<T>::DataPool”
-E:\Engine\lonely3D\lonely3D\TerrainSection.cpp(42,56): warning C4244: “参数”: 从“int32”转换到“float”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\TerrainSection.cpp(42,27): warning C4244: “参数”: 从“int32”转换到“float”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\TerrainSection.cpp(43,81): warning C4244: “参数”: 从“uint32”转换到“float”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\TerrainSection.cpp(43,46): warning C4244: “参数”: 从“uint32”转换到“float”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\TerrainSection.cpp(101,25): warning C4244: “+=”: 从“int32”转换到“uint16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\TerrainSection.cpp(128,38): warning C4554: “<<”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
-E:\Engine\lonely3D\lonely3D\TerrainSection.cpp(129,38): warning C4554: “<<”: 检查运算符优先级是否存在的可能的错误；使用括号阐明优先级
-E:\Engine\lonely3D\lonely3D\TerrainSection.cpp(131,40): warning C4244: “参数”: 从“uint32”转换到“uint16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\TerrainSection.cpp(131,36): warning C4244: “参数”: 从“uint32”转换到“uint16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\TerrainSection.cpp(132,40): warning C4244: “参数”: 从“uint32”转换到“uint16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\TerrainSection.cpp(132,36): warning C4244: “参数”: 从“uint32”转换到“uint16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\TerrainSection.cpp(133,40): warning C4244: “参数”: 从“uint32”转换到“uint16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\TerrainSection.cpp(133,36): warning C4244: “参数”: 从“uint32”转换到“uint16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\TerrainSection.cpp(134,40): warning C4244: “参数”: 从“uint32”转换到“uint16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\TerrainSection.cpp(134,36): warning C4244: “参数”: 从“uint32”转换到“uint16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(32,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(32): message : 在编译 类 模板 成员函数“uint32 IndexBuffer::SpecificIndexList<uint32>::Size(void) const”时
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(85): message : 查看对正在编译的 类 模板 实例化“IndexBuffer::SpecificIndexList<uint32>”的引用
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(46,21): warning C4244: “=”: 从“uint32”转换到“_Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45): message : 在编译 类 模板 成员函数“void IndexBuffer::SpecificIndexList<uint16>::SetValue(uint32,uint32)”时
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(81): message : 查看对正在编译的 类 模板 实例化“IndexBuffer::SpecificIndexList<uint16>”的引用
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(35,22): warning C4244: “参数”: 从“const uint32”转换到“const _Ty”，可能丢失数据
-          with
-          [
-              _Ty=uint16
-          ]
-E:\Engine\lonely3D\lonely3D\IndexBuffer.h(34): message : 在编译 类 模板 成员函数“void IndexBuffer::SpecificIndexList<uint16>::PushBack(const uint32 &)”时
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(49,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(56,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(60,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(69,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(70,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\QuadTreeNode.h(113,30): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\UtilTools.h(18,43): warning C4267: “初始化”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\Light.h(102,29): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\SkinnedSkeleton.h(30,28): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\TextureLoader_JPEG.h(9,10): fatal error C1083: 无法打开包括文件: “jpeglib.h”: No such file or directory
   Texture.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\MathTools.h(289,58): warning C4305: “初始化”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\MathTools.h(312,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(331,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(333,28): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(334,19): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(342,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(350,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(355,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(360,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(365,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(372,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(377,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(382,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(393,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(399,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(404,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(415,9): warning C4244: “return”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(513,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector3.h(121,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector4.h(112,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Types.h(27,2): warning C4091: “typedef ”: 没有声明变量时忽略“RENDER_STATE_TYPE”的左侧
-E:\Engine\lonely3D\lonely3D\Color.h(92,17): warning C4293: “>>”: Shift 计数为负或过大，其行为未定义
-E:\Engine\lonely3D\lonely3D\Color.h(281,19): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(282,17): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(283,19): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(284,18): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(284,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(283,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(282,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(281,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(292,1): warning C4302: “类型强制转换”: 从“const void *”到“uint16”截断
-E:\Engine\lonely3D\lonely3D\Color.h(295,1): warning C4302: “类型强制转换”: 从“const void *”到“uint16”截断
-E:\Engine\lonely3D\lonely3D\Color.h(298,1): warning C4311: “类型强制转换”: 从“const void *”到“uint32”的指针截断
-E:\Engine\lonely3D\lonely3D\Color.h(298,1): warning C4302: “类型强制转换”: 从“const void *”到“uint32”截断
-E:\Engine\lonely3D\lonely3D\Color.h(301,1): warning C4311: “类型强制转换”: 从“const void *”到“uint32”的指针截断
-E:\Engine\lonely3D\lonely3D\Color.h(301,1): warning C4302: “类型强制转换”: 从“const void *”到“uint32”截断
-E:\Engine\lonely3D\lonely3D\DataPool.h(164,1): warning C4812: 过时的声明样式: 请改用“DataPool<T>::DataPool”
-E:\Engine\lonely3D\lonely3D\SoftwareDriver2_helper.h(20,10): warning C4244: “初始化”: 从“float32”转换到“uint8”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\SoftwareDriver2_helper.h(21,10): warning C4244: “初始化”: 从“float32”转换到“uint8”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\SoftwareDriver2_helper.h(22,10): warning C4244: “初始化”: 从“float32”转换到“uint8”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\SoftwareDriver2_helper.h(75,28): warning C4244: “return”: 从“uint32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\PerlinNoise.h(41,15): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\PerlinNoise.h(66,11): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\PerlinNoise.h(67,11): warning C4244: “初始化”: 从“float32”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(19,10): warning C4244: “=”: 从“uint32”转换到“uint16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(20,11): warning C4244: “=”: 从“uint32”转换到“uint16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(30,10): warning C4244: “=”: 从“uint32”转换到“uint16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(31,11): warning C4244: “=”: 从“uint32”转换到“uint16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(120,18): warning C4244: “初始化”: 从“float32”转换到“uint8”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(141,11): warning C4244: “初始化”: 从“float32”转换到“uint16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(142,11): warning C4244: “初始化”: 从“float32”转换到“uint16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(413,31): warning C4244: “=”: 从“int32”转换到“uint16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(419,25): warning C4244: “=”: 从“float”转换到“uint16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(420,27): warning C4244: “=”: 从“float”转换到“uint16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(477,34): warning C4244: “=”: 从“float”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(478,34): warning C4244: “=”: 从“float”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(479,34): warning C4244: “=”: 从“float”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(489,44): warning C4244: “=”: 从“unsigned long”转换到“uint16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(493,53): warning C4244: “=”: 从“unsigned long”转换到“uint16”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(526,34): warning C4244: “=”: 从“float”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(527,34): warning C4244: “=”: 从“float”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(528,34): warning C4244: “=”: 从“float”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(529,34): warning C4244: “=”: 从“float”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(541,41): warning C4244: “=”: 从“uint32”转换到“uint8”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(542,41): warning C4244: “=”: 从“uint32”转换到“uint8”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(543,41): warning C4244: “=”: 从“uint32”转换到“uint8”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(544,41): warning C4244: “=”: 从“uint32”转换到“uint8”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(548,41): warning C4244: “=”: 从“uint32”转换到“uint8”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(549,41): warning C4244: “=”: 从“uint32”转换到“uint8”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(550,41): warning C4244: “=”: 从“uint32”转换到“uint8”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(583,28): warning C4244: “参数”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(583,25): warning C4244: “参数”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(593,27): warning C4244: “=”: 从“float32”转换到“uint8”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(618,13): warning C4244: “初始化”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(619,13): warning C4244: “初始化”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(665,32): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(665,22): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(665,12): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(664,6): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(713,58): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(713,48): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(713,38): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Texture.cpp(735,16): warning C4244: “初始化”: 从“float32”转换到“uint8”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\UtilTools.h(18,43): warning C4267: “初始化”: 从“size_t”转换到“int32”，可能丢失数据
   TextureLoader_BMP.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\Types.h(27,2): warning C4091: “typedef ”: 没有声明变量时忽略“RENDER_STATE_TYPE”的左侧
-E:\Engine\lonely3D\lonely3D\DataPool.h(164,1): warning C4812: 过时的声明样式: 请改用“DataPool<T>::DataPool”
-E:\Engine\lonely3D\lonely3D\TextureLoader_BMP.h(26): warning C4091: “typedef ”: 没有声明变量时忽略“TextureLoader_BMP::BitMapFileHeader”的左侧
-E:\Engine\lonely3D\lonely3D\TextureLoader_BMP.h(42): warning C4091: “typedef ”: 没有声明变量时忽略“TextureLoader_BMP::BitMapInfoHeader”的左侧
-E:\Engine\lonely3D\lonely3D\TextureLoader_BMP.h(50): warning C4091: “typedef ”: 没有声明变量时忽略“TextureLoader_BMP::Paletteentry”的左侧
-E:\Engine\lonely3D\lonely3D\UtilTools.h(16,43): warning C4267: “初始化”: 从“size_t”转换到“int32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(289,58): warning C4305: “初始化”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\MathTools.h(333,28): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(415,9): warning C4244: “return”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(513,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector3.h(121,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector4.h(112,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(92,17): warning C4293: “>>”: Shift 计数为负或过大，其行为未定义
-E:\Engine\lonely3D\lonely3D\Color.h(281,19): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(282,17): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(283,19): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(284,18): warning C4244: “参数”: 从“int”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(284,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(283,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(282,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(281,7): warning C4244: “参数”: 从“float32”转换到“uint32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Color.h(292,1): warning C4302: “类型强制转换”: 从“const void *”到“uint16”截断
-E:\Engine\lonely3D\lonely3D\Color.h(295,1): warning C4302: “类型强制转换”: 从“const void *”到“uint16”截断
-E:\Engine\lonely3D\lonely3D\Color.h(298,1): warning C4311: “类型强制转换”: 从“const void *”到“uint32”的指针截断
-E:\Engine\lonely3D\lonely3D\Color.h(298,1): warning C4302: “类型强制转换”: 从“const void *”到“uint32”截断
-E:\Engine\lonely3D\lonely3D\Color.h(301,1): warning C4311: “类型强制转换”: 从“const void *”到“uint32”的指针截断
-E:\Engine\lonely3D\lonely3D\Color.h(301,1): warning C4302: “类型强制转换”: 从“const void *”到“uint32”截断
-E:\Engine\lonely3D\lonely3D\TextureLoader_BMP.cpp(186,27): warning C4244: “=”: 从“unsigned long”转换到“uint8”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\TextureLoader_BMP.cpp(347,23): warning C4154: 删除数组表达式；转换到提供的指针
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\UtilTools.h(18,43): warning C4267: “初始化”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(45,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(49,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(56,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\IndexBuffer.h(60,1): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(69,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\ISceneNode.h(70,31): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\Light.h(102,29): warning C4267: “return”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\SkinnedSkeleton.h(30,28): warning C4267: “return”: 从“size_t”转换到“uint32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\TextureLoader_JPEG.h(9,10): fatal error C1083: 无法打开包括文件: “jpeglib.h”: No such file or directory
   TextureLoader_JPEG.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\Types.h(27,2): warning C4091: “typedef ”: 没有声明变量时忽略“RENDER_STATE_TYPE”的左侧
-E:\Engine\lonely3D\lonely3D\DataPool.h(164,1): warning C4812: 过时的声明样式: 请改用“DataPool<T>::DataPool”
 E:\Engine\lonely3D\lonely3D\TextureLoader_JPEG.h(9,10): fatal error C1083: 无法打开包括文件: “jpeglib.h”: No such file or directory
   TextureLoader_PNG.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\Types.h(27,2): warning C4091: “typedef ”: 没有声明变量时忽略“RENDER_STATE_TYPE”的左侧
-E:\Engine\lonely3D\lonely3D\DataPool.h(164,1): warning C4812: 过时的声明样式: 请改用“DataPool<T>::DataPool”
-E:\Engine\lonely3D\lonely3D\UtilTools.h(16,43): warning C4267: “初始化”: 从“size_t”转换到“int32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\UtilTools.h(18,43): warning C4267: “初始化”: 从“size_t”转换到“int32”，可能丢失数据
 E:\Engine\lonely3D\lonely3D\TextureLoader_PNG.cpp(3,10): fatal error C1083: 无法打开包括文件: “png.h”: No such file or directory
   Timer.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\um\winnt.h(154,1): fatal error C1189: #error:  "No Target Architecture"
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
   Vector2.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\MathTools.h(289,58): warning C4305: “初始化”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\MathTools.h(312,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(331,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(333,28): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(334,19): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(342,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(350,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(355,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(360,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(365,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(372,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(377,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(382,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(393,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(399,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(404,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(415,9): warning C4244: “return”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(513,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector2.cpp(37,28): warning C4305: “*=”: 从“double”到“float32”截断
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
   Vector3.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\MathTools.h(289,58): warning C4305: “初始化”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\MathTools.h(312,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(331,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(333,28): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(334,19): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(342,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(350,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(355,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(360,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(365,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(372,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(377,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(382,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(393,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(399,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(404,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(415,9): warning C4244: “return”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(513,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector3.h(121,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector4.h(112,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
   Vector4.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\MathTools.h(289,58): warning C4305: “初始化”: 从“double”到“float32”截断
-E:\Engine\lonely3D\lonely3D\MathTools.h(312,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(331,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(333,28): warning C4244: “参数”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(334,19): warning C4244: “初始化”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(342,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(350,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(355,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(360,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(365,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(372,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(377,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(382,12): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(393,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(399,14): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(404,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(415,9): warning C4244: “return”: 从“int32”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\MathTools.h(513,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector4.h(112,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
-E:\Engine\lonely3D\lonely3D\Vector3.h(121,13): warning C4244: “return”: 从“double”转换到“float32”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
   ZBuffer.cpp
-E:\Engine\lonely3D\lonely3D\DataType.h(25,33): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\DataType.h(27,31): warning C4309: “初始化”: 截断常量值
-E:\Engine\lonely3D\lonely3D\ZBuffer.cpp(17,19): warning C4018: “<”: 有符号/无符号不匹配
-E:\Engine\lonely3D\lonely3D\ZBuffer.cpp(18,18): warning C4244: “=”: 从“float”转换到“uint8”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\MathTools.h(559,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Engine\lonely3D\lonely3D\UtilTools.h(18,43): warning C4267: “初始化”: 从“size_t”转换到“int32”，可能丢失数据
   正在生成代码...
-E:\Engine\lonely3D\lonely3D\Texture.cpp(372): warning C4715: “Texture::GetPixel”: 不是所有的控件路径都返回值
-E:\Engine\lonely3D\lonely3D\Texture.cpp(756): warning C4715: “Texture::GetAlphaMask”: 不是所有的控件路径都返回值
-E:\Engine\lonely3D\lonely3D\Texture.cpp(767): warning C4715: “Texture::GetRedMask”: 不是所有的控件路径都返回值
-E:\Engine\lonely3D\lonely3D\Texture.cpp(778): warning C4715: “Texture::GetGreenMask”: 不是所有的控件路径都返回值
-E:\Engine\lonely3D\lonely3D\Texture.cpp(789): warning C4715: “Texture::GetBlueMask”: 不是所有的控件路径都返回值

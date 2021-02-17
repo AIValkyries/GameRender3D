@@ -287,16 +287,11 @@ static float32 TanTable[TRIG_TABLE_SIZE]=
  -0.04912668f, -0.04605176f, -0.04297772f, -0.03990449f, -0.03683201f, -0.03376022f, -0.03068907f, -0.02761850f, -0.02454845f, -0.02147886f, -0.01840967f, -0.01534084f, -0.01227229f, -0.00920397f, -0.00613583f, -0.00306780f
 };
 
-
- //构建三角函数表
+//构建三角函数表
 //static void BuildTrigTables()
 //{
 //	for (int i = 0; i < TRIG_TABLE_SIZE; i++)
 //	{
-//		if (i == 455)
-//		{
-//			int32 b = 1;
-//		}
 //		float32 fValue = TWO_PI * i / TRIG_TABLE_SIZE;
 //		float32 sValue = sin(fValue);
 //		CosSinTable[i] = sValue;

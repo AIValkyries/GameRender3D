@@ -41,7 +41,8 @@ void SceneObject::Render(bool updateChild)
 			if (meshBuffers[i]->GetIndexBuffer() == 0)
 				continue;
 
-			// 法线变换矩阵
+			// 法线变换矩阵 https://zhuanlan.zhihu.com/p/270713759
+			// https://zhuanlan.zhihu.com/p/72734738
 			Matrix4x4 temp = globaLocalToWorldMatrix.Inverse();
 			Matrix4x4 normalMat = globaWorldToLocalMatrix;
 			normalMat.Transpose();

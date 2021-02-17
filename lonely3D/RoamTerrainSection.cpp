@@ -473,7 +473,7 @@ float32 RoamTerrainSection::RecursionBuildErrorTree(
 	int32 index0, int32 index1, int32 index2,
 	float32 height0, float32 height1, float32 height2)
 {
-	if (nodeIndex < mainTerrain->GetTotalVariances())
+	if (nodeIndex < (int32)mainTerrain->GetTotalVariances())
 	{
 		errorTreeCount++;
 		

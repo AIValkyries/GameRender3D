@@ -53,6 +53,15 @@ void Texture::CreateTexture(
 
 uint16 Texture::GetBilinearSampling16(uint16 x, uint16 y, float32 u, float32 v)const
 {
+	uint16 maxWidth = width - 1;
+	uint16 maxHeight = height - 1;
+
+	float32 ui = float32(u * maxWidth);
+	float32 vi = float32(v * maxHeight);
+
+	float32 du = ui - x;
+	float32 dv = vi - y;
+
 	// ȡ
 	uint16* srcBuffer = (uint16*)datas;
 	uint16 nextX = x + 1;
@@ -66,13 +75,13 @@ uint16 Texture::GetBilinearSampling16(uint16 x, uint16 y, float32 u, float32 v)c
 	uint16 p2 = srcBuffer[nextX + nextY * width];
 	uint16 p3 = srcBuffer[x + nextY * width];
 
-	float32 avg_u = 1.0F - u;
-	float32 avg_v = 1.0F - v;
+	float32 avg_u = 1.0F - du;
+	float32 avg_v = 1.0F - dv;
 
 	float32 p0Inter = avg_u * avg_v;
-	float32 p1Inter = u * avg_v;
-	float32 p2Inter = u * v;
-	float32 p3Inter = avg_u * v;
+	float32 p1Inter = du * avg_v;
+	float32 p2Inter = du * dv;
+	float32 p3Inter = avg_u * dv;
 
 	uint16 p0Color = (uint16)((p0 & 0xFF00) * p0Inter) | (uint16)((p0 & 0xFF) * p0Inter);
 	uint16 p1Color = (uint16)((p1 & 0xFF00) * p1Inter) | (uint16)((p1 & 0xFF) * p1Inter);
@@ -84,6 +93,15 @@ uint16 Texture::GetBilinearSampling16(uint16 x, uint16 y, float32 u, float32 v)c
 
 uint32 Texture::GetBilinearSampling32(uint16 x, uint16 y, float32 u, float32 v)const
 {
+	uint16 maxWidth = width - 1;
+	uint16 maxHeight = height - 1;
+
+	float32 ui = float32(u * maxWidth);
+	float32 vi = float32(v * maxHeight);
+
+	float32 du = ui - x;
+	float32 dv = vi - y;
+
 	uint32* srcBuffer = (uint32*)datas;
 
 	uint16 nextX = x + 1;
@@ -97,13 +115,13 @@ uint32 Texture::GetBilinearSampling32(uint16 x, uint16 y, float32 u, float32 v)c
 	uint32 p2 = srcBuffer[nextX + nextY * width];
 	uint32 p3 = srcBuffer[x + nextY * width];
 
-	float32 avg_u = 1.0F - u;
-	float32 avg_v = 1.0F - v;
+	float32 avg_u = 1.0F - du;
+	float32 avg_v = 1.0F - dv;
 
 	float32 p0Inter = avg_u * avg_v;
-	float32 p1Inter = u * avg_v;
-	float32 p2Inter = u * v;
-	float32 p3Inter = avg_u * v;
+	float32 p1Inter = du * avg_v;
+	float32 p2Inter = du * dv;
+	float32 p3Inter = avg_u * dv;
 
 	uint32 p0Color = 
 		(uint32)((p0 & 0x00FF0000) * p0Inter) << 16 |
@@ -205,8 +223,11 @@ ColorF Texture::GetPixelF(float32 u, float32 v)const
 	uint16 maxWidth = width - 1;
 	uint16 maxHeight = height - 1;
 
-	uint16 x = uint16((u * maxWidth) + 0.5F);
-	uint16 y = uint16((v * maxHeight) + 0.5F);
+	float32 ui = float32(u * maxWidth);
+	float32 vi = float32(v * maxHeight);
+
+	uint16 x = uint16(ui);
+	uint16 y = uint16(vi);
 
 	ColorF color(0, 0, 0, 0);
 
@@ -314,13 +335,16 @@ ColorF Texture::GetPixelF(float32 u, float32 v)const
 		nextX = Clamp(nextX, 0, maxWidth);
 		nextY = Clamp(nextY, 0, maxHeight);
 
-		float32 avg_u = 1.0F - u;
-		float32 avg_v = 1.0F - v;
+		float32 du = ui - x;
+		float32 dv = vi - y;
+
+		float32 avg_u = 1.0F - du;
+		float32 avg_v = 1.0F - dv;
 
 		float32 p0Inter = avg_u * avg_v;
-		float32 p1Inter = u * avg_v;
-		float32 p2Inter = u * v;
-		float32 p3Inter = avg_u * v;
+		float32 p1Inter = du * avg_v;
+		float32 p2Inter = du * dv;
+		float32 p3Inter = avg_u * dv;
 
 		switch (colorFormat)
 		{
@@ -523,8 +547,11 @@ ColorU32 Texture::GetPixel(float32 u, float32 v)const
 	uint16 maxWidth = width - 1;
 	uint16 maxHeight = height - 1;
 
-	uint16 x = uint16((u * maxWidth) + 0.5F);
-	uint16 y = uint16((v * maxHeight) + 0.5F);
+	float32 ui = float32(u * maxWidth);
+	float32 vi = float32(v * maxHeight);
+
+	uint16 x = uint16(ui);
+	uint16 y = uint16(vi);
 
 	ColorU32 color(0, 0, 0, 0);
 
@@ -605,13 +632,16 @@ ColorU32 Texture::GetPixel(float32 u, float32 v)const
 		nextX = Clamp(nextX, 0, maxWidth);
 		nextY = Clamp(nextY, 0, maxHeight);
 
-		float32 avg_u = 1.0F - u;
-		float32 avg_v = 1.0F - v;
+		float32 du = ui - x;
+		float32 dv = vi - y;
+
+		float32 avg_u = 1.0F - du;
+		float32 avg_v = 1.0F - dv;
 
 		float32 p0Inter = avg_u * avg_v;
-		float32 p1Inter = u * avg_v;
-		float32 p2Inter = u * v;
-		float32 p3Inter = avg_u * v;
+		float32 p1Inter = du * avg_v;
+		float32 p2Inter = du * dv;
+		float32 p3Inter = avg_u * dv;
 
 		switch (colorFormat)
 		{

@@ -548,6 +548,7 @@ Vector4 Matrix4x4::GetPositionV4()const
 	return temp;
 }
 
+// https://blog.csdn.net/hunter_wwq/article/details/21473519
 Vector3 Matrix4x4::GetScale()const
 {
 	if (data[1] == 0 && data[2] == 0 &&

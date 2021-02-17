@@ -21,7 +21,6 @@
   正在生成代码...
   正在编译...
   RoamTerrainSection.cpp
-E:\Engine\lonely3D\lonely3D\RoamTerrainSection.cpp(476,16): warning C4018: “<”: 有符号/无符号不匹配
   RoamTerrainSystem.cpp
   SceneObject.cpp
   SkinnedSkeleton.cpp

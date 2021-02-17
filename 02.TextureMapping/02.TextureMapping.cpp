@@ -8,6 +8,7 @@
 #include "QuadTreeSceneNode.h"
 
 static int32 renderState[RENDER_STATE_MAX];
+static int32 filterMode = 1;
 
 class MyGameHost :public GameHost
 {
@@ -19,11 +20,18 @@ protected:
     virtual void UpdateNode(ISceneNode* node);
 
     void AddRenderStateNodes(ISceneNode* node);
+	void AddRenderTexture(Texture* texture);
 
 private:
     vector<ISceneNode*> renderStateNodes;
+	vector<Texture*> renderTexture;
 
 };
+
+void MyGameHost::AddRenderTexture(Texture* texture)
+{
+	renderTexture.push_back(texture);
+}
 
 void MyGameHost::AddRenderStateNodes(ISceneNode* node)
 {
@@ -165,6 +173,18 @@ void MyGameHost::UpdateNode(ISceneNode* node)
 			}
 		}
 
+		
+
+		if (GetAsyncKeyState('L') & 0x8000)
+		{
+			// RENDER_BOX
+			filterMode = !filterMode;
+			for (uint32 i = 0;i < renderTexture.size();i++)
+			{
+				renderTexture[i]->SetFilterMode(filterMode);
+			}
+		}
+
 		sprintf(buffer,
 			"Z=ZBuffer[%d],M=Move_Backface[%d],Q=Render_Wire_Frame[%d]",
 			renderState[Z_BUFFER], renderState[ON_MOVE_BACKFACE], renderState[RENDER_WIRE_FRAME]);
@@ -174,6 +194,9 @@ void MyGameHost::UpdateNode(ISceneNode* node)
 			"T=Render_Triangle[%d],N=Render_Normal[%d],B=Render_Box[%d]",
 			renderState[RENDER_TRIANGLE], renderState[RENDER_NORMAL], renderState[RENDER_BOX]);
 		DrawTextGDI(300, 520, RGB(0, 0, 255), buffer);
+
+		sprintf(buffer,"L=Texture_FilterMode[%d]",filterMode);
+		DrawTextGDI(300, 540, RGB(0, 0, 255), buffer);
 	}
 
 	if (node->IsCanUpdateMatrix())
@@ -236,7 +259,7 @@ void MyGameHost::GameInit()
 
 	const string bgTextureName = "../media/texture/wood01.bmp";
 	Texture* texture = GetTextureManager()->LoadResource(bgTextureName);
-	texture->SetFilterMode(0);
+
 
 	ColorF c = WHITE_F;
 	c.SetAlpha(0.5F);
@@ -256,6 +279,8 @@ void MyGameHost::GameInit()
 
 	const string textName = "../media/texture/panel02.bmp";
 	Texture* texture2 = GetTextureManager()->LoadResource(textName);
+	texture2->SetFilterMode(filterMode);
+	AddRenderTexture(texture2);
 
 	CubeSceneNode* cubeNode2 = CreateCubeNode(
 		Vector4(-10, 0, 50, 1),
@@ -268,6 +293,19 @@ void MyGameHost::GameInit()
 	cubeNode2->SetVertexColor(WHITE_F);
 	cubeNode2->SetTexture(0, texture2);
 	cubeNode2->SetShaderType(TEXTURE_GOURAUD);
+
+	CubeSceneNode* cubeNode3 = CreateCubeNode(
+		Vector4(20, 10, 35, 1),
+		Vector3(1.0F, 1.0F, 1.0F),
+		Vector3(0, -31, 0));
+	cubeNode3->SetRenderState(Z_BUFFER, renderState[Z_BUFFER]);
+	// TRANSPARENTT
+	cubeNode3->SetRenderState(TRANSPARENTT, true);
+	cubeNode3->SetRenderState(RENDER_TRIANGLE, renderState[RENDER_TRIANGLE]);
+	cubeNode3->SetRenderState(ON_MOVE_BACKFACE, renderState[ON_MOVE_BACKFACE]);
+	cubeNode3->SetVertexColor(c);
+	cubeNode3->SetTexture(0, texture2);
+	cubeNode3->SetShaderType(TEXTURE_GOURAUD);
 
 	//cubeNode2->AttachToParent(cubeNode);
 
