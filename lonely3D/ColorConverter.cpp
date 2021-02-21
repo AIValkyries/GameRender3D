@@ -85,20 +85,23 @@ void ColorConverter::Convert8BitTo16Bit(
 		return;
 	if (flip) outData += width * height;
 
+	int32 totalIndex = 0;
 	for (uint32 y = 0;y < height;y++)
 	{
-		if (flip)
-			outData -= width;
+		if (flip) outData -= width;
 
 		for (uint32 x = 0;x < width;x++)
 		{
-			uint16 v = X8R8G8B8_TO_A1R5G5B5(paletteentry[(*inData)]);
+			int32 index = (*inData);
+			uint16 v = X8R8G8B8_TO_A1R5G5B5(paletteentry[index]);
 			outData[x] = v;
 			++inData;
+			totalIndex++;
 		}
 
 		if (!flip) outData += width;
 		inData += linepad;
+		totalIndex += linepad;
 	}
 }
 

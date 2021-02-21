@@ -269,13 +269,12 @@ ColorF Texture::GetPixelF(float32 u, float32 v)const
 		case RGB_565:
 		{
 			uint16* destBuffer = (uint16*)(datas + (x << 1) + y * pitch);
-			uint16 v = *destBuffer;
-
+			uint32 v = RGB_565_TO_ARGB_32(*destBuffer);
 			float32 inv = 1.0F / 255.0f;
 
-			float32 r = ((v >> 11) & 0x1f) * inv;
-			float32 g = ((v >> 5) & 0x3F) * inv;
-			float32 b = ((v & 0x1f)) * inv;
+			float32 r = ((v >> 16) & 0xff) * inv;
+			float32 g = ((v >> 8) & 0xff) * inv;
+			float32 b = ((v & 0xff)) * inv;
 
 			color.Set(r, g, b);
 			
@@ -284,15 +283,16 @@ ColorF Texture::GetPixelF(float32 u, float32 v)const
 		case ARGB_1555:
 		{
 			uint16* destBuffer = (uint16*)(datas + (x << 1) + y * pitch);
-			uint16 v = *destBuffer;
+			uint32 v = ARGB_1555_TO_ARGB_32(*destBuffer);
 
 			float32 inv = 1.0F / 255.0f;
 
-			float32 r = (((v & ~0x8000) >> 10) & 0x1f) * inv;
-			float32 g = ((v >> 5) & 0x3F) * inv;
-			float32 b = ((v & 0x1f)) * inv;
+			float32 a = (v >> 24) * inv;
+			float32 r = (((v >> 16)) & 0xff) * inv;
+			float32 g = ((v >> 8) & 0xff) * inv;
+			float32 b = ((v & 0xff)) * inv;
 
-			color.Set(r, g, b);
+			color.Set(a, r, g, b);
 
 			return color;
 		}break;
@@ -593,13 +593,13 @@ ColorU32 Texture::GetPixel(float32 u, float32 v)const
 		case RGB_565:
 		{
 			uint16* destBuffer = (uint16*)(datas + (x << 1) + y * pitch);
-			color.Set(*destBuffer);
+			color.Set(RGB_565_TO_ARGB_32(*destBuffer));
 			return color;
 		}
 		case ARGB_1555:
 		{
 			uint16* destBuffer = (uint16*)(datas + (x << 1) + y * pitch);
-			color.Set(*destBuffer);
+			color.Set(ARGB_1555_TO_ARGB_32(*destBuffer));
 		}break;
 		case RGB_24:
 		{

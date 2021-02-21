@@ -1,2 +1,4 @@
 E:\Engine\lonely3D\Debug\lonely3D.pdb
 E:\Engine\lonely3D\lonely3D\Debug\lonely3D.pdb
+E:\Engine\GameRender3D\Debug\lonely3D.pdb
+E:\Engine\GameRender3D\lonely3D\Debug\lonely3D.pdb

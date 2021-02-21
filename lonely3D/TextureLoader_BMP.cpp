@@ -331,23 +331,30 @@ bool TextureLoader_BMP::Loader(IFile* file, IResourceItem* item)
 		return false;
 	}
 
+	uint32 pitch = 0;
+
 	// 彩色表 Color palette
 	bool hasPaletteentry = false;
+	infoHeader.biSizeImage += (4 - (infoHeader.biSizeImage % 4)) % 4;
 
 	uint32* paletteentry = 0;
+	uint32 paletteSize = (fileHeader.bfOffBits - file->GetPos()) / 4;
 
-	if (infoHeader.biBitCount == 4 || infoHeader.biBitCount == 8)
+	if (paletteSize)
 	{
 		hasPaletteentry = true;
-		paletteentry = new uint32[MAX_COLORS_PALETTE];
+		paletteentry = new uint32[paletteSize];
 
-		file->Read(paletteentry, sizeof(uint32) * MAX_COLORS_PALETTE);
+		file->Read(paletteentry, sizeof(uint32) * paletteSize);
 	}
+	else
+		pitch = infoHeader.biSizeImage / infoHeader.biHeight;
+
+	file->Seek(fileHeader.bfOffBits, SEEK_SET);
 
 	// 位图数据
 	uint8* bmpData = new uint8[infoHeader.biSizeImage];
 	file->Read(bmpData, infoHeader.biSizeImage);
-	uint32 pitch = infoHeader.biSizeImage / infoHeader.biHeight;
 
 	// 解压缩
 	switch (infoHeader.biCompression)

@@ -277,11 +277,12 @@ void MyGameHost::GameInit()
 	cubeNode->SetTexture(0, texture);
 	cubeNode->SetShaderType(TEXTURE_GOURAUD_ALPHA);
 
-	const string textName = "../media/texture/panel02.bmp";
+	const string textName = "../media/texture/faerie2.bmp";
 	Texture* texture2 = GetTextureManager()->LoadResource(textName);
-	texture2->SetFilterMode(filterMode);
+	//texture2->SetFilterMode(filterMode);
 	AddRenderTexture(texture2);
 
+	// TERRAIN_SHADER TEXTURE_GOURAUD
 	CubeSceneNode* cubeNode2 = CreateCubeNode(
 		Vector4(-10, 0, 50, 1),
 		Vector3(1, 1, 1),
