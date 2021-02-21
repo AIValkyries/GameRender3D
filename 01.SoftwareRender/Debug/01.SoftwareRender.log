@@ -1,2 +1,4 @@
 ﻿  01.SoftwareRender.cpp
-  01.SoftwareRender.vcxproj -> E:\Engine\lonely3D\Debug\01.SoftwareRender.exe
+  LINK : 没有找到 E:\Engine\GameRender3D\Debug\01.SoftwareRender.exe 或上一个增量链接没有生成它；正在执行完全链接
+LINK : warning LNK4098: 默认库“LIBCMTD”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  01.SoftwareRender.vcxproj -> E:\Engine\GameRender3D\Debug\01.SoftwareRender.exe

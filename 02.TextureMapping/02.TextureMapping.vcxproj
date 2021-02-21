@@ -72,8 +72,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <ReferencePath>E:\Engine\lonely3D\png\Lib;E:\Engine\lonely3D\jpeg\Lib;$(ReferencePath)</ReferencePath>
-    <LibraryPath>E:\Engine\lonely3D\png\Lib;E:\Engine\lonely3D\jpeg\Lib;$(LibraryPath)</LibraryPath>
+    <ReferencePath>..\png\Lib;..\jpeg\Lib;$(ReferencePath)</ReferencePath>
+    <LibraryPath>..\png\Lib;..\jpeg\Lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -90,12 +90,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>E:\Engine\lonely3D\png\Lib;E:\Engine\lonely3D\png\Include;E:\Engine\lonely3D\jpeg\Lib;E:\Engine\lonely3D\jpeg\Include;E:\Engine\lonely3D\lonely3D;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\png\Lib;..\png\Include;..\jpeg\Lib;..\jpeg\Include;..\lonely3D;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>E:\Engine\lonely3D\Debug\lonely3D.lib;libjpeg.lib;libpng16.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>..\Debug\lonely3D.lib;libjpeg.lib;libpng16.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
