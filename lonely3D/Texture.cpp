@@ -355,38 +355,42 @@ ColorF Texture::GetPixelF(float32 u, float32 v)const
 			uint32 yPitch = y * width;
 			uint32 yNextPitch = nextY * width;
 
-			uint16 p0 = *(destBuffer + x + yPitch);
-			uint16 p1 = *(destBuffer + nextX + yPitch);
-			uint16 p2 = *(destBuffer + nextX + yNextPitch);
-			uint16 p3 = *(destBuffer + x + yNextPitch);
+			uint32 p0 = RGB_565_TO_ARGB_32(*(destBuffer + x + yPitch));
+			uint32 p1 = RGB_565_TO_ARGB_32(*(destBuffer + nextX + yPitch));
+			uint32 p2 = RGB_565_TO_ARGB_32(*(destBuffer + nextX + yNextPitch));
+			uint32 p3 = RGB_565_TO_ARGB_32(*(destBuffer + x + yNextPitch));
 
-			uint16 p0Color =
-				(uint16)((p0 & 0xF800) * p0Inter) |
-				(uint16)((p0 & 0x07E0) * p0Inter) |
-				(uint16)((p0 & 0x001F) * p0Inter);
+			uint32 p0Color =
+				(((uint32)((p0 >> 24) * p0Inter)) << 24) |
+				(((uint32)(((p0 >> 16) & 0xff) * p0Inter)) << 16) |
+				(((uint32)(((p0 >> 8) & 0xff) * p0Inter)) << 8) |
+				((uint32)(((p0) & 0xff) * p0Inter));
 
-			uint16 p1Color =
-				(uint16)((p1 & 0xF800) * p1Inter) |
-				(uint16)((p1 & 0x07E0) * p1Inter) |
-				(uint16)((p1 & 0x001F) * p1Inter);
+			uint32 p1Color =
+				(((uint32)(((p1 >> 24) & 0xff) * p1Inter)) << 24) |
+				(((uint32)(((p1 >> 16) & 0xff) * p1Inter)) << 16) |
+				(((uint32)(((p1 >> 8) & 0xff) * p1Inter)) << 8) |
+				((uint32)(((p1) & 0xff) * p1Inter));
 
-			uint16 p2Color =
-				(uint16)((p2 & 0xF800) * p2Inter) |
-				(uint16)((p2 & 0x07E0) * p2Inter) |
-				(uint16)((p2 & 0x001F) * p2Inter);
+			uint32 p2Color =
+				(((uint32)(((p2 >> 24) & 0xff) * p2Inter)) << 24) |
+				(((uint32)(((p2 >> 16) & 0xff) * p2Inter)) << 16) |
+				(((uint32)(((p2 >> 8) & 0xff) * p2Inter)) << 8) |
+				((uint32)(((p2) & 0xff) * p2Inter));
 
-			uint16 p3Color =
-				(uint16)((p3 & 0xF800) * p3Inter) |
-				(uint16)((p3 & 0x07E0) * p3Inter) |
-				(uint16)((p3 & 0x001F) * p3Inter);
+			uint32 p3Color =
+				(((uint32)(((p3 >> 24) & 0xff) * p3Inter)) << 24) |
+				(((uint32)(((p3 >> 16) & 0xff) * p3Inter)) << 16) |
+				(((uint32)(((p3 >> 8) & 0xff) * p3Inter)) << 8) |
+				((uint32)(((p3) & 0xff) * p3Inter));
 
-			uint16 totalColor = p0Color + p1Color + p2Color + p3Color;
-			
+			uint32 totalColor = p0Color + p1Color + p2Color + p3Color;
+
 			float32 inv = 1.0F / 255.0f;
 
-			float32 r = ((totalColor >> 11) & 0x1f) * inv;
-			float32 g = ((totalColor >> 5) & 0x3F) * inv;
-			float32 b = ((totalColor & 0x1f)) * inv;
+			float32 r = ((totalColor >> 16) & 0xff) * inv;
+			float32 g = ((totalColor >> 8) & 0xff) * inv;
+			float32 b = ((totalColor & 0xff)) * inv;
 
 			color.Set(r, g, b);
 
@@ -399,40 +403,45 @@ ColorF Texture::GetPixelF(float32 u, float32 v)const
 			uint32 yPitch = y * width;
 			uint32 yNextPitch = nextY * width;
 
-			uint16 p0 = *(destBuffer + x + yPitch);
-			uint16 p1 = *(destBuffer + nextX + yPitch);
-			uint16 p2 = *(destBuffer + nextX + yNextPitch);
-			uint16 p3 = *(destBuffer + x + yNextPitch);
+			uint32 p0 = ARGB_1555_TO_ARGB_32(*(destBuffer + x + yPitch));
+			uint32 p1 = ARGB_1555_TO_ARGB_32(*(destBuffer + nextX + yPitch));
+			uint32 p2 = ARGB_1555_TO_ARGB_32(*(destBuffer + nextX + yNextPitch));
+			uint32 p3 = ARGB_1555_TO_ARGB_32(*(destBuffer + x + yNextPitch));
 
-			uint16 p0Color =
-				(uint16)((p0 & 0x7C00) * p0Inter) |
-				(uint16)((p0 & 0x03E0) * p0Inter) |
-				(uint16)((p0 & 0x001F) * p0Inter);
+			uint32 p0Color =
+				(((uint32)((p0>>24) * p0Inter)) << 24) |
+				(((uint32)(((p0 >> 16)&0xff) * p0Inter)) << 16) |
+				(((uint32)(((p0 >> 8) & 0xff) * p0Inter)) << 8) |
+				((uint32)(((p0) & 0xff) * p0Inter));
 
-			uint16 p1Color =
-				(uint16)((p1 & 0x7C00) * p1Inter) |
-				(uint16)((p1 & 0x03E0) * p1Inter) |
-				(uint16)((p1 & 0x001F) * p1Inter);
+			uint32 p1Color =
+				(((uint32)(((p1 >> 24) & 0xff) * p1Inter)) << 24) |
+				(((uint32)(((p1 >> 16) & 0xff) * p1Inter)) << 16) |
+				(((uint32)(((p1 >> 8) & 0xff) * p1Inter)) << 8) |
+				((uint32)(((p1) & 0xff) * p1Inter));
 
-			uint16 p2Color =
-				(uint16)((p2 & 0x7C00) * p2Inter) |
-				(uint16)((p2 & 0x03E0) * p2Inter) |
-				(uint16)((p2 & 0x001F) * p2Inter);
+			uint32 p2Color =
+				(((uint32)(((p2 >> 24) & 0xff) * p2Inter)) << 24) |
+				(((uint32)(((p2 >> 16) & 0xff) * p2Inter)) << 16) |
+				(((uint32)(((p2 >> 8) & 0xff) * p2Inter)) << 8) |
+				((uint32)(((p2) & 0xff) * p2Inter));
 
-			uint16 p3Color =
-				(uint16)((p3 & 0x7C00) * p3Inter) |
-				(uint16)((p3 & 0x03E0) * p3Inter) |
-				(uint16)((p3 & 0x001F) * p3Inter);
+			uint32 p3Color =
+				(((uint32)(((p3 >> 24) & 0xff) * p3Inter)) << 24) |
+				(((uint32)(((p3 >> 16) & 0xff) * p3Inter)) << 16) |
+				(((uint32)(((p3 >> 8) & 0xff) * p3Inter)) << 8) |
+				((uint32)(((p3) & 0xff) * p3Inter));
 
-			uint16 totalColor = p0Color + p1Color + p2Color + p3Color;
-			
+			uint32 totalColor = p0Color + p1Color + p2Color + p3Color;
+
 			float32 inv = 1.0F / 255.0f;
 
-			float32 r = (((totalColor & ~0x8000) >> 10) & 0x1f) * inv;
-			float32 g = ((totalColor >> 5) & 0x3F) * inv;
-			float32 b = ((totalColor & 0x1f)) * inv;
+			float32 a = (totalColor >> 24) * inv;
+			float32 r = (((totalColor >> 16)) & 0xff) * inv;
+			float32 g = ((totalColor >> 8) & 0xff) * inv;
+			float32 b = ((totalColor & 0xff)) * inv;
 
-			color.Set(r, g, b);
+			color.Set(a, r, g, b);
 
 			return color;
 		};
@@ -652,32 +661,37 @@ ColorU32 Texture::GetPixel(float32 u, float32 v)const
 			uint32 yPitch = y * width;
 			uint32 yNextPitch = nextY * width;
 
-			uint16 p0 = *(destBuffer + x + yPitch);
-			uint16 p1 = *(destBuffer + nextX + yPitch);
-			uint16 p2 = *(destBuffer + nextX + yNextPitch);
-			uint16 p3 = *(destBuffer + x + yNextPitch);
+			uint32 p0 = RGB_565_TO_ARGB_32(*(destBuffer + x + yPitch));
+			uint32 p1 = RGB_565_TO_ARGB_32(*(destBuffer + nextX + yPitch));
+			uint32 p2 = RGB_565_TO_ARGB_32(*(destBuffer + nextX + yNextPitch));
+			uint32 p3 = RGB_565_TO_ARGB_32(*(destBuffer + x + yNextPitch));
 
-			uint16 p0Color =
-				(uint16)((p0 & 0xF800) * p0Inter) |
-				(uint16)((p0 & 0x07E0) * p0Inter) |
-				(uint16)((p0 & 0x001F) * p0Inter);
+			uint32 p0Color =
+				(((uint32)((p0 >> 24) * p0Inter)) << 24) |
+				(((uint32)(((p0 >> 16) & 0xff) * p0Inter)) << 16) |
+				(((uint32)(((p0 >> 8) & 0xff) * p0Inter)) << 8) |
+				((uint32)(((p0) & 0xff) * p0Inter));
 
-			uint16 p1Color =
-				(uint16)((p1 & 0xF800) * p1Inter) |
-				(uint16)((p1 & 0x07E0) * p1Inter) |
-				(uint16)((p1 & 0x001F) * p1Inter);
+			uint32 p1Color =
+				(((uint32)(((p1 >> 24) & 0xff) * p1Inter)) << 24) |
+				(((uint32)(((p1 >> 16) & 0xff) * p1Inter)) << 16) |
+				(((uint32)(((p1 >> 8) & 0xff) * p1Inter)) << 8) |
+				((uint32)(((p1) & 0xff) * p1Inter));
 
-			uint16 p2Color =
-				(uint16)((p2 & 0xF800) * p2Inter) |
-				(uint16)((p2 & 0x07E0) * p2Inter) |
-				(uint16)((p2 & 0x001F) * p2Inter);
+			uint32 p2Color =
+				(((uint32)(((p2 >> 24) & 0xff) * p2Inter)) << 24) |
+				(((uint32)(((p2 >> 16) & 0xff) * p2Inter)) << 16) |
+				(((uint32)(((p2 >> 8) & 0xff) * p2Inter)) << 8) |
+				((uint32)(((p2) & 0xff) * p2Inter));
 
-			uint16 p3Color =
-				(uint16)((p3 & 0xF800) * p3Inter) |
-				(uint16)((p3 & 0x07E0) * p3Inter) |
-				(uint16)((p3 & 0x001F) * p3Inter);
+			uint32 p3Color =
+				(((uint32)(((p3 >> 24) & 0xff) * p3Inter)) << 24) |
+				(((uint32)(((p3 >> 16) & 0xff) * p3Inter)) << 16) |
+				(((uint32)(((p3 >> 8) & 0xff) * p3Inter)) << 8) |
+				((uint32)(((p3) & 0xff) * p3Inter));
 
-			uint16 totalColor = p0Color + p1Color + p2Color + p3Color;
+			uint32 totalColor = p0Color + p1Color + p2Color + p3Color;
+
 			color.Set(totalColor);
 
 			return color;
@@ -689,32 +703,36 @@ ColorU32 Texture::GetPixel(float32 u, float32 v)const
 			uint32 yPitch = y * width;
 			uint32 yNextPitch = nextY * width;
 
-			uint16 p0 = *(destBuffer + x + yPitch);
-			uint16 p1 = *(destBuffer + nextX + yPitch);
-			uint16 p2 = *(destBuffer + nextX + yNextPitch);
-			uint16 p3 = *(destBuffer + x + yNextPitch);
+			uint32 p0 = ARGB_1555_TO_ARGB_32(*(destBuffer + x + yPitch));
+			uint32 p1 = ARGB_1555_TO_ARGB_32(*(destBuffer + nextX + yPitch));
+			uint32 p2 = ARGB_1555_TO_ARGB_32(*(destBuffer + nextX + yNextPitch));
+			uint32 p3 = ARGB_1555_TO_ARGB_32(*(destBuffer + x + yNextPitch));
 
-			uint16 p0Color =
-				(uint16)((p0 & 0x7C00) * p0Inter) |
-				(uint16)((p0 & 0x03E0) * p0Inter) |
-				(uint16)((p0 & 0x001F) * p0Inter);
+			uint32 p0Color =
+				(((uint32)((p0 >> 24) * p0Inter)) << 24) |
+				(((uint32)(((p0 >> 16) & 0xff) * p0Inter)) << 16) |
+				(((uint32)(((p0 >> 8) & 0xff) * p0Inter)) << 8) |
+				((uint32)(((p0) & 0xff) * p0Inter));
 
-			uint16 p1Color =
-				(uint16)((p1 & 0x7C00) * p1Inter) |
-				(uint16)((p1 & 0x03E0) * p1Inter) |
-				(uint16)((p1 & 0x001F) * p1Inter);
+			uint32 p1Color =
+				(((uint32)(((p1 >> 24) & 0xff) * p1Inter)) << 24) |
+				(((uint32)(((p1 >> 16) & 0xff) * p1Inter)) << 16) |
+				(((uint32)(((p1 >> 8) & 0xff) * p1Inter)) << 8) |
+				((uint32)(((p1) & 0xff) * p1Inter));
 
-			uint16 p2Color =
-				(uint16)((p2 & 0x7C00) * p2Inter) |
-				(uint16)((p2 & 0x03E0) * p2Inter) |
-				(uint16)((p2 & 0x001F) * p2Inter);
+			uint32 p2Color =
+				(((uint32)(((p2 >> 24) & 0xff) * p2Inter)) << 24) |
+				(((uint32)(((p2 >> 16) & 0xff) * p2Inter)) << 16) |
+				(((uint32)(((p2 >> 8) & 0xff) * p2Inter)) << 8) |
+				((uint32)(((p2) & 0xff) * p2Inter));
 
-			uint16 p3Color =
-				(uint16)((p3 & 0x7C00) * p3Inter) |
-				(uint16)((p3 & 0x03E0) * p3Inter) |
-				(uint16)((p3 & 0x001F) * p3Inter);
+			uint32 p3Color =
+				(((uint32)(((p3 >> 24) & 0xff) * p3Inter)) << 24) |
+				(((uint32)(((p3 >> 16) & 0xff) * p3Inter)) << 16) |
+				(((uint32)(((p3 >> 8) & 0xff) * p3Inter)) << 8) |
+				((uint32)(((p3) & 0xff) * p3Inter));
 
-			uint16 totalColor = p0Color + p1Color + p2Color + p3Color;
+			uint32 totalColor = p0Color + p1Color + p2Color + p3Color;
 			color.Set(totalColor);
 
 			return color;

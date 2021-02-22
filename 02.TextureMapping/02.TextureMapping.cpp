@@ -260,7 +260,6 @@ void MyGameHost::GameInit()
 	const string bgTextureName = "../media/texture/wood01.bmp";
 	Texture* texture = GetTextureManager()->LoadResource(bgTextureName);
 
-
 	ColorF c = WHITE_F;
 	c.SetAlpha(0.5F);
 
@@ -279,7 +278,7 @@ void MyGameHost::GameInit()
 
 	const string textName = "../media/texture/faerie2.bmp";
 	Texture* texture2 = GetTextureManager()->LoadResource(textName);
-	//texture2->SetFilterMode(filterMode);
+	texture2->SetFilterMode(filterMode);
 	AddRenderTexture(texture2);
 
 	// TERRAIN_SHADER TEXTURE_GOURAUD
@@ -293,7 +292,7 @@ void MyGameHost::GameInit()
 	cubeNode2->SetRenderState(ON_MOVE_BACKFACE, renderState[ON_MOVE_BACKFACE]);
 	cubeNode2->SetVertexColor(WHITE_F);
 	cubeNode2->SetTexture(0, texture2);
-	cubeNode2->SetShaderType(TEXTURE_GOURAUD);
+	cubeNode2->SetShaderType(TERRAIN_SHADER);
 
 	CubeSceneNode* cubeNode3 = CreateCubeNode(
 		Vector4(20, 10, 35, 1),
@@ -306,7 +305,7 @@ void MyGameHost::GameInit()
 	cubeNode3->SetRenderState(ON_MOVE_BACKFACE, renderState[ON_MOVE_BACKFACE]);
 	cubeNode3->SetVertexColor(c);
 	cubeNode3->SetTexture(0, texture2);
-	cubeNode3->SetShaderType(TEXTURE_GOURAUD);
+	cubeNode3->SetShaderType(TERRAIN_SHADER);
 
 	//cubeNode2->AttachToParent(cubeNode);
 
