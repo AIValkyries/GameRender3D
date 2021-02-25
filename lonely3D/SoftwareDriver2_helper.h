@@ -82,7 +82,7 @@ float32 ReadHeightMap32(int32 x, int32 y, int32 width, int32 height, uint32* dat
 	if (y >= height)
 		y = 0;
 
-	return float32(data[y * height + x]);
+	return (float32)Intensity32(data[(y * width) + x]);
 }
 
 
@@ -98,7 +98,7 @@ float32 ReadHeightMap16(int32 x, int32 y, int32 width, int32 height, uint16* dat
 	if (y >= height)
 		y = 0;
 
-	return data[y * height + x];
+	return float32(Intensity16(data[y * width + x]));
 }
 
 #endif

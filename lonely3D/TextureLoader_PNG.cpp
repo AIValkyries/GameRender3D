@@ -13,12 +13,12 @@ static void png_cpexcept_warn(png_structp png_ptr, png_const_charp msg)
 {
 	//Debug::LogWarning("PNG Warning" + msg);
 }
-
+// PNG文件读取功能
 void PNGAPI user_read_data_fcn(
 	png_structp png_ptr, png_bytep data, png_size_t length)
 {
 	IFile* file = (IFile*)png_get_io_ptr(png_ptr);
-	bool check = file->Read(data, length);
+	bool check = file->Read((void*)data, length);
 	if (!check)
 		png_error(png_ptr,"Read Error!");
 }
@@ -76,7 +76,7 @@ bool TextureLoader_PNG::Loader(IFile* file, IResourceItem* item)
 	png_set_read_fn(png_ptr, file, user_read_data_fcn);
 	png_set_sig_bytes(png_ptr, 8);
 
-	// 修改png参数
+	// 阅读png文件的信息部分
 	png_read_info(png_ptr, info_ptr);
 
 	uint32 width;
@@ -105,6 +105,7 @@ bool TextureLoader_PNG::Loader(IFile* file, IResourceItem* item)
 			png_set_packing(png_ptr);
 	}
 
+	// 图像透明块
 	if (png_get_valid(png_ptr, info_ptr, PNG_INFO_tRNS))
 		png_set_tRNS_to_alpha(png_ptr);
 
@@ -140,21 +141,29 @@ bool TextureLoader_PNG::Loader(IFile* file, IResourceItem* item)
 		width = w;
 		height = h;
 	};
-
+	// Convert RGBA to BGRA
 	if (colorType == PNG_COLOR_TYPE_RGB_ALPHA)
 		png_set_bgr(png_ptr);
 
 	Texture* texture = (Texture*)item;
 
+	int32 bitCount = 0;
+
 	if (colorType == PNG_COLOR_TYPE_RGB_ALPHA)
+	{
 		texture->CreateTexture(ARGB_32, width, height);
+		bitCount = 32;
+	}
 	else
+	{
 		texture->CreateTexture(RGB_24, width, height);
+		bitCount = 24;
+	}
 
 	uint8** rowPointers = new uint8*[height];
-
 	uint8* data = (uint8*)texture->Lock();
 
+	// 填充指向图像数据中行的指针数组
 	for (uint32 i = 0;i < height;i++)
 	{
 		rowPointers[i] = data;
@@ -170,6 +179,7 @@ bool TextureLoader_PNG::Loader(IFile* file, IResourceItem* item)
 		return 0;
 	}
 
+	// 使用处理所有转换（包括隔行扫描）的库函数读取数据
 	png_read_image(png_ptr, rowPointers);
 	png_read_end(png_ptr, NULL);
 
@@ -180,7 +190,7 @@ bool TextureLoader_PNG::Loader(IFile* file, IResourceItem* item)
 
 	texture->SetFileName(IFile::GetFileName(file->GetFullFileName()));
 
-	Debug::LogInfo("PNG_加载完成,Name=["+ texture->GetFileName() + "]");
+	Debug::LogInfo("PNG_加载完成,Name=[" + texture->GetFileName() + "]:BIT_COUNT=" + Convert(bitCount));
 
 	return true;
 }

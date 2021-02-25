@@ -8,7 +8,7 @@
 #include "QuadTreeSceneNode.h"
 
 static int32 renderState[RENDER_STATE_MAX];
-static int32 filterMode = 1;
+static int32 filterMode = 0;
 
 class MyGameHost :public GameHost
 {
@@ -276,10 +276,19 @@ void MyGameHost::GameInit()
 	cubeNode->SetTexture(0, texture);
 	cubeNode->SetShaderType(TEXTURE_GOURAUD_ALPHA);
 
-	const string textName = "../media/texture/faerie2.bmp";
+	// faerie2 mesh_evn_srock01
+	const string textName = "../media/texture/mesh_evn_srock01.bmp";
 	Texture* texture2 = GetTextureManager()->LoadResource(textName);
+	
+	COLOR_FORMAT colorFormat = texture2->GetColorFormat();
+
+	Texture* normalMap = GetTextureManager()->CreateResource("NORMAL_MAP");
+	normalMap->CreateTexture(colorFormat, texture2->GetWidth(), texture2->GetHeight());
+	normalMap->GenerateNormalMap(texture2, 2);
+	normalMap->SetFilterMode(filterMode);
 	texture2->SetFilterMode(filterMode);
 	AddRenderTexture(texture2);
+	AddRenderTexture(normalMap);
 
 	// TERRAIN_SHADER TEXTURE_GOURAUD
 	CubeSceneNode* cubeNode2 = CreateCubeNode(
@@ -291,25 +300,27 @@ void MyGameHost::GameInit()
 	cubeNode2->SetRenderState(RENDER_TRIANGLE, renderState[RENDER_TRIANGLE]);
 	cubeNode2->SetRenderState(ON_MOVE_BACKFACE, renderState[ON_MOVE_BACKFACE]);
 	cubeNode2->SetVertexColor(WHITE_F);
-	cubeNode2->SetTexture(0, texture2);
-	cubeNode2->SetShaderType(TERRAIN_SHADER);
+	cubeNode2->SetTexture(0, normalMap);
+	cubeNode2->SetRenderState(RENDER_TEXTURE, true);
+	cubeNode2->SetShaderType(TEXTURE_GOURAUD);
 
 	CubeSceneNode* cubeNode3 = CreateCubeNode(
-		Vector4(20, 10, 35, 1),
+		Vector4(30, 10, 12, 1),
 		Vector3(1.0F, 1.0F, 1.0F),
-		Vector3(0, -31, 0));
+		Vector3(0, 0, 0));
 	cubeNode3->SetRenderState(Z_BUFFER, renderState[Z_BUFFER]);
 	// TRANSPARENTT
-	cubeNode3->SetRenderState(TRANSPARENTT, true);
+	//cubeNode3->SetRenderState(TRANSPARENTT, true);
 	cubeNode3->SetRenderState(RENDER_TRIANGLE, renderState[RENDER_TRIANGLE]);
 	cubeNode3->SetRenderState(ON_MOVE_BACKFACE, renderState[ON_MOVE_BACKFACE]);
 	cubeNode3->SetVertexColor(c);
-	cubeNode3->SetTexture(0, texture2);
-	cubeNode3->SetShaderType(TERRAIN_SHADER);
+	cubeNode3->SetTexture(0, normalMap);
+	//cubeNode3->SetRenderState(RENDER_TEXTURE, true);
+	cubeNode3->SetShaderType(TEXTURE_GOURAUD);
 
 	//cubeNode2->AttachToParent(cubeNode);
 
-	RegisteredFocus(cubeNode);
+	RegisteredFocus(cubeNode3);
 
 	AddRenderStateNodes(cubeNode);
 	AddRenderStateNodes(cubeNode2);

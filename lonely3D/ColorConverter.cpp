@@ -289,14 +289,10 @@ void ColorConverter::Convert32To32Bit(
 	{
 		if (flip) outData -= width;
 
-		for (uint32 x = 0;x < width;x++)
-		{
-			outData[x] = *inData;
-			++inData;
-		}
+		memcpy(outData, inData, width * sizeof(uint32));
 
 		if (!flip) outData += width;
-		inData += linepad;
+		inData += width;
 	}
 
 }

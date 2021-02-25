@@ -388,7 +388,7 @@ bool TextureLoader_BMP::Loader(IFile* file, IResourceItem* item)
 		{
 			ColorConverter::Convert1BitTo16Bit(
 				bmpData, (uint16*)texture->Lock(),
-				infoHeader.biWidth, infoHeader.biHeight, pitch, false);
+				infoHeader.biWidth, infoHeader.biHeight, pitch, true);
 		}
 
 	}break;
@@ -399,7 +399,7 @@ bool TextureLoader_BMP::Loader(IFile* file, IResourceItem* item)
 		{
 			ColorConverter::Convert4BitTo16Bit(
 				bmpData, (uint16*)texture->Lock(),
-				infoHeader.biWidth, infoHeader.biHeight,paletteentry, pitch, false);
+				infoHeader.biWidth, infoHeader.biHeight,paletteentry, pitch, true);
 		}
 	}break;
 	case 8:
@@ -426,7 +426,7 @@ bool TextureLoader_BMP::Loader(IFile* file, IResourceItem* item)
 				(uint16*)texture->Lock(),
 				infoHeader.biWidth, 
 				infoHeader.biHeight,
-				pitch, false);
+				pitch, true);
 		}
 	}break;
 	case 24:
@@ -436,7 +436,7 @@ bool TextureLoader_BMP::Loader(IFile* file, IResourceItem* item)
 		{
 			ColorConverter::Convert24To24Bit(
 				bmpData, (uint8*)texture->Lock(),
-				infoHeader.biWidth, infoHeader.biHeight, pitch, false, true);
+				infoHeader.biWidth, infoHeader.biHeight, pitch, true, true);
 		}
 	}break;
 	case 32:
@@ -446,7 +446,7 @@ bool TextureLoader_BMP::Loader(IFile* file, IResourceItem* item)
 		{
 			ColorConverter::Convert32To32Bit(
 				(uint32*)bmpData, (uint32*)texture->Lock(),
-				infoHeader.biWidth, infoHeader.biHeight, pitch, false);
+				infoHeader.biWidth, infoHeader.biHeight, pitch, true);
 		}
 	}break;
 	}

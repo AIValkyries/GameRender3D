@@ -26,7 +26,7 @@ void IShader::DrawTexture()
 		width = renderTarget->GetWidth();
 	}
 
-	if (renderState == 0)
+	if (renderState[TRANSPARENTT] == 0)
 	{
 		for (int32 y = 0;y < height;y++)
 		{

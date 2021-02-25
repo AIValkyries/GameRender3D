@@ -156,8 +156,8 @@ void Texture::SetColor(int32 x, int32 y, uint32 color)
 
 	for (int32 i = 0;i < copyCount;i++)
 	{
-		// copyCount - 1 -
-		startColor[i] = destColor[ i];
+		uint8 v = destColor[i];
+		startColor[i] = v;
 	}
 }
 
@@ -311,15 +311,25 @@ ColorF Texture::GetPixelF(float32 u, float32 v)const
 		}
 		case ARGB_32:
 		{
-			uint32* destBuffer = (uint32*)(datas + (x * 4) + y * pitch);
+			uint8* destBuffer = datas + (x * 4) + y * width * 4;
 			
-			float32 inv = 1.0F / 255.0F;
-			uint32 v = *destBuffer;
+			if (x == 0 && y == 0)
+			{
+				int32 count = 1;
+			}
 
-			float32 a = ((v >> 24) & 0xff) * inv;
-			float32 r = ((v >> 16) & 0xff) * inv;
-			float32 g = ((v >> 8) &  0xff) * inv;
-			float32 b = ((v & 0xff)) * inv;
+			float32 inv = 1.0F / 255.0F;
+
+			uint8 da = destBuffer[3];
+			uint8 dr = destBuffer[2];
+			uint8 dg = destBuffer[1];
+			uint8 db = destBuffer[0];
+
+
+			float32 a = (da) * inv;
+			float32 r = (dr) * inv;
+			float32 g = (dg) * inv;
+			float32 b = (db) * inv;
 
 			color.Set(a, r, g, b);
 
@@ -503,40 +513,40 @@ ColorF Texture::GetPixelF(float32 u, float32 v)const
 			uint8* p0 = datas + xPitch + yPitch;
 			uint8* p1 = datas + xNextPitch + yPitch;
 			uint8* p2 = datas + xNextPitch + yNextPitch;
-			uint8* p3 = datas + nextX + yNextPitch;
+			uint8* p3 = datas + xPitch + yNextPitch;
 
 			uint32 p0Color =
-				(((uint32)(p0[0] * p0Inter)) << 24) |
-				(((uint32)(p0[1] * p0Inter)) << 16) |
-				(((uint32)(p0[2] * p0Inter)) << 8) |
+				(((uint32)(p0[0] * p0Inter)) << 24) +
+				(((uint32)(p0[1] * p0Inter)) << 16) +
+				(((uint32)(p0[2] * p0Inter)) << 8) +
 				((uint32)(p0[3] * p0Inter));
 
 			uint32 p1Color =
-				(((uint32)(p1[0] * p1Inter)) << 24) |
-				(((uint32)(p1[1] * p1Inter)) << 16) |
-				(((uint32)(p1[2] * p1Inter)) << 8) |
+				(((uint32)(p1[0] * p1Inter)) << 24) +
+				(((uint32)(p1[1] * p1Inter)) << 16) +
+				(((uint32)(p1[2] * p1Inter)) << 8) +
 				((uint32)(p1[3] * p1Inter));
 
 			uint32 p2Color =
-				(((uint32)(p2[0] * p2Inter)) << 24) |
-				(((uint32)(p2[1] * p2Inter)) << 16) |
-				(((uint32)(p2[2] * p2Inter)) << 8) |
+				(((uint32)(p2[0] * p2Inter)) << 24) +
+				(((uint32)(p2[1] * p2Inter)) << 16) +
+				(((uint32)(p2[2] * p2Inter)) << 8) +
 				((uint32)(p2[3] * p2Inter));
 
 			uint32 p3Color =
-				(((uint32)(p3[0] * p3Inter)) << 24) |
-				(((uint32)(p3[1] * p3Inter)) << 16) |
-				(((uint32)(p3[2] * p3Inter)) << 8) |
+				(((uint32)(p3[0] * p3Inter)) << 24) +
+				(((uint32)(p3[1] * p3Inter)) << 16) +
+				(((uint32)(p3[2] * p3Inter)) << 8) +
 				((uint32)(p3[3] * p3Inter));
 
 			uint32 totalColor = p0Color + p1Color + p2Color + p3Color;
 		
 			float32 inv = 1.0F / 255.0F;
 
-			float32 a = ((totalColor >> 24) & 0xff) * inv;
-			float32 r = ((totalColor >> 16) & 0xff) * inv;
-			float32 g = ((totalColor >> 8) & 0xff) * inv;
-			float32 b = ((totalColor & 0xff)) * inv;
+			float32 a = ((totalColor) & 0xff) * inv;
+			float32 r = ((totalColor >> 8) & 0xff) * inv;
+			float32 g = ((totalColor >> 16) & 0xff) * inv;
+			float32 b = ((totalColor >> 24) & 0xff) * inv;
 
 			color.Set(a, r, g, b);
 
@@ -627,8 +637,12 @@ ColorU32 Texture::GetPixel(float32 u, float32 v)const
 		}
 		case ARGB_32:
 		{
-			uint32* destBuffer = (uint32*)(datas + (x * 4) + y * pitch);
-			color.Set(*destBuffer);
+			uint8* destBuffer = (datas + (x * 4) + y * pitch);
+			color.SetAlpha(destBuffer[3]);
+			color.SetRed(destBuffer[2]);
+			color.SetGreen(destBuffer[1]);
+			color.SetBlue(destBuffer[0]);
+		
 			return color;
 		}break;
 		}
@@ -788,7 +802,7 @@ ColorU32 Texture::GetPixel(float32 u, float32 v)const
 			uint8* p0 = datas + xPitch + yPitch;
 			uint8* p1 = datas + xNextPitch + yPitch;
 			uint8* p2 = datas + xNextPitch + yNextPitch;
-			uint8* p3 = datas + nextX + yNextPitch;
+			uint8* p3 = datas + xPitch + yNextPitch;
 
 			uint32 p0Color =
 				(((uint32)(p0[0] * p0Inter)) << 24) |
@@ -815,7 +829,11 @@ ColorU32 Texture::GetPixel(float32 u, float32 v)const
 				((uint32)(p3[3] * p3Inter));
 
 			uint32 totalColor = p0Color + p1Color + p2Color + p3Color;
-			color.Set(totalColor);
+			
+			color.SetAlpha((totalColor & 0xFF));
+			color.SetRed((totalColor >> 8) & 0xff);
+			color.SetGreen((totalColor >> 16) & 0xff);
+			color.SetBlue((totalColor >> 24) & 0xff);
 
 			return color;
 		};
@@ -868,7 +886,9 @@ void Texture::SetPixel(uint16 x, uint16 y, ColorU32 color, float32 blend)const
 			c = PixelBlend32(*destBuffer, color.GetColor(), blend);
 		}
 		else
+		{
 			c = color.GetColor();
+		}
 
 		*destBuffer = c;
 	}break;
@@ -1067,6 +1087,9 @@ void Texture::GeneratePerlinNoise(
 /// <summary>
 /// 由高度图生成法线贴图
 /// 参考:https://zhuanlan.zhihu.com/p/68328851
+/// http://www.360doc.com/content/18/1220/09/110467_803065512.shtml
+/// http://www.evil3d.cn/2017/07/18/technology/2017-07-18-normalmap.html
+/// https://zhuanlan.zhihu.com/p/183926639
 /// </summary>
 void Texture::GenerateNormalMap(Texture* heightMap, float32 amplitude)
 {
@@ -1079,62 +1102,56 @@ void Texture::GenerateNormalMap(Texture* heightMap, float32 amplitude)
 		Debug::LogError("错误：不支持用于制作法线贴图的纹理颜色格式");
 		return;
 	}
-	
-	amplitude = amplitude / 255.0F;
 
 	int32 _width = heightMap->GetWidth();
 	int32 _hegiht = heightMap->GetHeight();
 
-	float32 vh = float32(_hegiht / _width);
-	float32 hh = float32(_width / _hegiht);
+	float32 vh = (_hegiht / float32(_width));
+	float32 hh = (_width / float32(_hegiht));
 
 	if (heightMap->GetColorFormat() == ARGB_32)
 	{
 		uint32* p = (uint32*)heightMap->Lock();
+		uint32* data = (uint32*)Lock();
 
 		uint32* in = new uint32[_width * _hegiht];
 		memcpy(in, p, _hegiht * _width * 4);
 
-		for (int32 y = 0;y < _hegiht;y++)
+		for (int32 x = 0;x < _width;x++)
 		{
-			for (int32 x = 0;x < _width;x++)
+			for (int32 y = 0;y < _hegiht;y++)
 			{
-				Vector3 h1(
-					(x - 1) * hh,
-					ReadHeightMap32(x-1, y, _width, _hegiht, in) * amplitude,
-					y * vh);
+				const float32 topLeft     = ReadHeightMap32(x - 1, y - 1, _width, _hegiht, in);				
+				const float32 top         = ReadHeightMap32(x, y - 1, _width, _hegiht, in);				
+				const float32 topRight    = ReadHeightMap32(x + 1, y - 1, _width, _hegiht, in);				
+				const float32 right       = ReadHeightMap32(x + 1, y, _width, _hegiht, in);				 
+				const float32 bottomRight = ReadHeightMap32(x + 1, y + 1, _width, _hegiht, in);				
+				const float32 bottom      = ReadHeightMap32(x, y + 1, _width, _hegiht, in);				 
+				const float32 bottomLeft  = ReadHeightMap32(x - 1, y + 1, _width, _hegiht, in);			
+				const float32 left        = ReadHeightMap32(x - 1, y, _width, _hegiht, in);			
 
-				Vector3 h2(
-					(x + 1) * hh,
-					ReadHeightMap32(x + 1, y, pitch, _hegiht, in) * amplitude,
-					y * vh);
+				const float32 top_side    = topLeft + 2.0F * top + topRight;
+				const float32 bottom_side = bottomLeft + 2.0F * bottom + bottomRight;
+				const float32 right_side  = topRight + right * 2.0F + bottomRight;
+				const float32 left_side   = topLeft + 2.0F * left + bottomLeft;
 
-				Vector3 v1(
-					x * hh,
-					ReadHeightMap32(x, y + 1, _width, _hegiht, in) * amplitude,
-					(y + 1) * vh);
+				const float32 dX = right_side - left_side;
+				const float32 dY = bottom_side - top_side;
+				const float32 dZ = 1.0F / amplitude;
 
-				Vector3 v2(
-					x * hh,
-					ReadHeightMap32(x, y - 1, _width, _hegiht, in) * amplitude,
-					(y - 1) * vh);
-
-				Vector3 s = v1 - v2;
-				Vector3 t = h1 - h2;
-
-				Vector3 normal = Cross(s, t);
+				Vector3 normal = Vector3(dX, dY, dZ);
 				normal.Normalize();
 				normal *= 0.5F;
 				normal += Vector3(0.5F, 0.5F, 0.5F);
 				normal *= 255.0F;
 
-				float32 height = ReadHeightMap32(x,y,_width, _hegiht, in);
-
-				p[y * _width + x] = ColorU32(
-					uint32(height),
+				uint32 color = ColorU32(
+					uint32(0),
 					uint32(normal.x),
 					uint32(normal.y),
 					uint32(normal.z)).GetColor();
+
+				data[y * _width + x] = color;
 			}
 		}
 		delete[] in;
@@ -1143,46 +1160,41 @@ void Texture::GenerateNormalMap(Texture* heightMap, float32 amplitude)
 	else if (heightMap->GetColorFormat() == ARGB_1555)
 	{
 		uint16* p = (uint16*)heightMap->Lock();
+		uint16* data = (uint16*)Lock();
 
 		uint16* in = new uint16[_width * _hegiht];
 		memcpy(in, p, _hegiht * _width * 2);
 
-		for (int32 y = 0;y < _hegiht;y++)
+		for (int32 x = 0;x < _width;x++)
 		{
-			for (int32 x = 0;x < _width;x++)
+			for (int32 y = 0;y < _hegiht;y++)
 			{
-				Vector3 h1(
-					(x - 1) * hh,
-					ReadHeightMap16(x - 1, y, _width, _hegiht, in) * amplitude,
-					y * vh);
+				const float32 topLeft     = ReadHeightMap16(x - 1, y - 1, _width, _hegiht, in);
+				const float32 top         = ReadHeightMap16(x, y - 1, _width, _hegiht, in);
+				const float32 topRight    = ReadHeightMap16(x + 1, y - 1, _width, _hegiht, in);
+				const float32 right       = ReadHeightMap16(x + 1, y, _width, _hegiht, in);
+				const float32 bottomRight = ReadHeightMap16(x + 1, y + 1, _width, _hegiht, in);
+				const float32 bottom      = ReadHeightMap16(x, y + 1, _width, _hegiht, in);
+				const float32 bottomLeft  = ReadHeightMap16(x - 1, y + 1, _width, _hegiht, in);
+				const float32 left        = ReadHeightMap16(x - 1, y, _width, _hegiht, in);
 
-				Vector3 h2(
-					(x + 1) * hh,
-					ReadHeightMap16(x + 1, y, pitch, _hegiht, in) * amplitude,
-					y * vh);
+				const float32 top_side = topLeft + 2.0F * top + topRight;
+				const float32 bottom_side = bottomLeft + 2.0F * bottom + bottomRight;
+				const float32 right_side = topRight + right * 2.0F + bottomRight;
+				const float32 left_side = topLeft + 2.0F * left + bottomLeft;
 
-				Vector3 v1(
-					x * hh,
-					ReadHeightMap16(x, y + 1, _width, _hegiht, in) * amplitude,
-					(y + 1) * vh);
+				const float32 dX = right_side - left_side;
+				const float32 dY = bottom_side - top_side;
+				const float32 dZ = 1.0F / amplitude;
 
-				Vector3 v2(
-					x * hh,
-					ReadHeightMap16(x, y - 1, _width, _hegiht, in) * amplitude,
-					(y - 1) * vh);
-
-				Vector3 s = v1 - v2;
-				Vector3 t = h1 - h2;
-
-				Vector3 normal = Cross(s, t);
+				Vector3 normal = Vector3(dX, dY, dZ);
 				normal.Normalize();
 				normal *= 0.5F;
 				normal += Vector3(0.5F, 0.5F, 0.5F);
 				normal *= 255.0F;
 
-				float32 height = ReadHeightMap16(x, y, _width, _hegiht, in);
-
-				p[y * _width + x] = RGBA16(uint32(normal.x), uint32(normal.y), uint32(normal.z));
+				data[y * _width + x] = RGBA16(uint32(normal.x),
+					uint32(normal.y), uint32(normal.z));
 			}
 		}
 		delete[] in;

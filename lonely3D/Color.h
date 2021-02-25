@@ -122,7 +122,73 @@ inline uint32 ARGB_32_TO_RGB_24(uint32 rgb32)
 	return rgb24;
 }
 
+inline uint32 GetRed(uint16 color)
+{
+	return ((color >> 10) & 0x1F);
+}
 
+
+inline uint32 GetGreen(uint16 color)
+{
+	return ((color >> 5) & 0x1F);
+}
+
+inline uint32 GetBlue(uint16 color)
+{
+	return (color & 0x1F);
+}
+
+inline uint32 GetAverage(uint16 color)
+{
+	return ((GetRed(color) << 3) + (GetGreen(color) << 3) + (GetBlue(color) << 3)) / 3;
+}
+
+
+inline uint32 GetRed(uint32 c)
+{
+	return (c >> 16) & 0xff;
+}
+
+inline uint32 GetGreen(uint32 c)
+{
+	return (c >> 8) & 0xff;
+}
+
+inline uint32 GetBlue(uint32 c)
+{
+	return (c) & 0xff;
+}
+
+inline uint32 GetAverage(uint32 color)
+{
+	return ((GetRed(color)) + (GetGreen(color)) + (GetBlue(color))) / 3;
+}
+
+inline float32 Intensity32(uint32 color)
+{
+	float32 r = (float32)GetRed(color);
+	float32 g = (float32)GetGreen(color);
+	float32 b = (float32)GetBlue(color);
+
+	const float32 average = (r + g + b) / 3;
+	return average / 255.0F;
+}
+
+inline float32 Intensity16(uint16 color)
+{
+	float32 r = (float32)GetRed(color);
+	float32 g = (float32)GetGreen(color);
+	float32 b = (float32)GetBlue(color);
+
+	const float32 average = (r + g + b) / 3;
+	return average / 255.0F;
+}
+
+// 0.2126 
+inline float32 GetLuminance(uint32 color)
+{
+	return (GetRed(color) * 0.2126f) + GetGreen(color) * 0.59f + GetBlue(color) * 0.11f;
+}
 
 class ColorF
 {
@@ -393,16 +459,6 @@ public:
 	ColorU32 operator*(const float32& k)const
 	{
 		ColorU32 c;
-		//uint8 a = GetAlpha();
-		//uint8 r = GetRed();
-		//uint8 g = GetGreen();
-		//uint8 b = GetBlue();
-
-		//uint8 ca = Clamp(a * k, 0, 255);
-		//uint8 cr = Clamp(r * k, 0, 255);
-		//uint8 cg = Clamp(g * k, 0, 255);
-		//uint8 cb = Clamp(b * k, 0, 255);
-
 		c.color = (uint32)(color * k);
 
 		return c;
@@ -616,6 +672,13 @@ public:
 	uint8 GetBlue()const { return (color & 0xFF); }
 
 	uint32 GetColor()const { return color; }
+	uint32 InversionColor()const
+	{
+		uint32 c = 0;
+		
+		c = uint32(GetBlue() << 24) + uint32(GetGreen() << 16) + uint32(GetRed() << 8) + uint32(GetAlpha());
+		return c;
+	}
 	// 좋똑 [0,255] 좋똑
 	float32 GetLightness()const
 	{

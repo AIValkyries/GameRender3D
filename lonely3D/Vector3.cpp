@@ -80,10 +80,14 @@ float32 Vector3::SqrMagnitude()
 
 void Vector3::Normalize()
 {
-	float32 magnitude = Magnitude();
-	x /= magnitude;
-	y /= magnitude;
-	z /= magnitude;
+	float32 length = x * x + y * y + z * z;
+	if (length == 0)
+		return;
+
+	length = 1.0F / Sqrt(length);
+	x = x * length;
+	y = y * length;
+	z = z * length;
 }
 
 void Vector3::Set(float32 newX, float32 newY, float32 newZ)
